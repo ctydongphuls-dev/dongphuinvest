@@ -13,10 +13,10 @@ const contactSchema = z.object({
 });
 
 const contactInfo = [
-  { icon: MapPin, label: "Địa chỉ", value: "Số 10, Đường Trần Đăng Ninh, TP. Lạng Sơn, Tỉnh Lạng Sơn" },
-  { icon: Phone, label: "Điện thoại", value: "1900 xxxx | 0123 456 789" },
-  { icon: Mail, label: "Email", value: "info@dongphulangson.vn" },
-  { icon: Clock, label: "Giờ làm việc", value: "Thứ 2 - Thứ 6: 8:00 - 17:30\nThứ 7: 8:00 - 12:00" },
+  { icon: MapPin, label: "Địa chỉ", value: "Số 85 Nguyễn Thái Học, phường Lương Văn Chi, tỉnh Lạng Sơn", href: null },
+  { icon: Phone, label: "Điện thoại", value: "(+84) 0947 223 888", href: "tel:+840947223888" },
+  { icon: Mail, label: "Email", value: "ctcpdongphulangson@outlook.com.vn", href: "mailto:ctcpdongphulangson@outlook.com.vn" },
+  { icon: Clock, label: "Giờ làm việc", value: "T2-T6: 9:00-11:30 & 13:00-16:00\n(T7, CN: Nghỉ)", href: null },
 ];
 
 const ContactSection = () => {
@@ -114,17 +114,23 @@ const ContactSection = () => {
             viewport={{ once: true }}
             className="lg:col-span-2 space-y-6"
           >
-            {contactInfo.map(({ icon: Icon, label, value }) => (
-              <div key={label} className="flex gap-4">
-                <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center shrink-0">
-                  <Icon className="w-5 h-5 text-gold" />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-foreground">{label}</p>
-                  <p className="text-sm text-muted-foreground whitespace-pre-line">{value}</p>
-                </div>
-              </div>
-            ))}
+             {contactInfo.map(({ icon: Icon, label, value, href }) => (
+               <div key={label} className="flex gap-4">
+                 <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center shrink-0">
+                   <Icon className="w-5 h-5 text-gold" />
+                 </div>
+                 <div>
+                   <p className="text-sm font-semibold text-foreground">{label}</p>
+                   {href ? (
+                     <a href={href} className="text-sm text-muted-foreground hover:text-gold transition-colors">
+                       {value}
+                     </a>
+                   ) : (
+                     <p className="text-sm text-muted-foreground whitespace-pre-line">{value}</p>
+                   )}
+                 </div>
+               </div>
+             ))}
 
             {/* Map placeholder */}
             <div className="rounded-xl overflow-hidden border border-border h-48 bg-muted flex items-center justify-center">

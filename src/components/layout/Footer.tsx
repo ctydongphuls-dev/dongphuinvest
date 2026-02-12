@@ -59,16 +59,22 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-gold mb-4">Liên hệ</h3>
             <ul className="space-y-3">
-              {[
-                { icon: MapPin, text: "Số 10, Đường Trần Đăng Ninh, TP. Lạng Sơn" },
-                { icon: Phone, text: "1900 xxxx | 0123 456 789" },
-                { icon: Mail, text: "info@dongphulangson.vn" },
-                { icon: Clock, text: "T2 - T6: 8:00 - 17:30" },
-              ].map(({ icon: Icon, text }, i) => (
+               {[
+                { icon: MapPin, text: "Số 85 Nguyễn Thái Học, phường Lương Văn Chi, tỉnh Lạng Sơn", href: null },
+                { icon: Phone, text: "(+84) 0947 223 888", href: "tel:+840947223888" },
+                { icon: Mail, text: "ctcpdongphulangson@outlook.com.vn", href: "mailto:ctcpdongphulangson@outlook.com.vn" },
+                { icon: Clock, text: "T2-T6: 9:00-11:30 & 13:00-16:00 (T7, CN: Nghỉ)", href: null },
+              ].map(({ icon: Icon, text, href }, i) => (
                 <li key={i} className="flex items-start gap-2.5">
-                  <Icon className="w-4 h-4 text-gold mt-0.5 shrink-0" />
-                  <span className="text-sm text-primary-foreground/70">{text}</span>
-                </li>
+                   <Icon className="w-4 h-4 text-gold mt-0.5 shrink-0" />
+                   {href ? (
+                     <a href={href} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">
+                       {text}
+                     </a>
+                   ) : (
+                     <span className="text-sm text-primary-foreground/70">{text}</span>
+                   )}
+                 </li>
               ))}
             </ul>
           </div>
