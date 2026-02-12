@@ -6,8 +6,8 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const stats = [
   { icon: Clock, value: "10+", label: "Năm kinh nghiệm" },
-  { icon: Users, value: "500+", label: "Khách hàng tin tưởng" },
-  { icon: Briefcase, value: "1,000+", label: "Tỷ đồng quản lý" },
+  { icon: Users, value: "100+", label: "Khách hàng tin tưởng" },
+  { icon: Briefcase, value: "200+", label: "Tỷ đồng quản lý" },
   { icon: TrendingUp, value: "95%", label: "Khách hàng hài lòng" },
 ];
 

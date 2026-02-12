@@ -69,11 +69,11 @@ const Header = () => {
           {/* Right */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:1900xxxx"
+              href="tel:+840947223888"
               className="hidden md:flex items-center gap-2 text-sm font-semibold text-primary"
             >
               <Phone className="w-4 h-4 text-gold" />
-              1900 xxxx
+              (+84) 0947 223 888
             </a>
             <Button variant="gold" size="sm" className="hidden sm:inline-flex" asChild>
               <Link to="/#contact">Tư vấn miễn phí</Link>
@@ -113,9 +113,9 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-3 flex flex-col gap-2">
-                <a href="tel:1900xxxx" className="flex items-center gap-2 px-4 text-sm font-semibold text-primary">
+                <a href="tel:+840947223888" className="flex items-center gap-2 px-4 text-sm font-semibold text-primary">
                   <Phone className="w-4 h-4 text-gold" />
-                  1900 xxxx
+                  (+84) 0947 223 888
                 </a>
                 <Button variant="gold" size="sm" className="mx-4" asChild>
                   <Link to="/#contact" onClick={() => setMobileOpen(false)}>Tư vấn miễn phí</Link>

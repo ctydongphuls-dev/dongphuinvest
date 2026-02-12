@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 
 const news = [
   {
-    title: "Đồng Phú Lạng Sơn ra mắt Quỹ đầu tư Tăng trưởng 2024",
-    date: "15/01/2024",
-    desc: "Quỹ đầu tư mới với quy mô 500 tỷ đồng, tập trung vào cổ phiếu tăng trưởng và trái phiếu doanh nghiệp uy tín.",
+    title: "Ra mắt Quỹ đầu tư ĐP Capital",
+    date: "15/01/2025",
+    desc: "Công ty chính thức ra mắt Quỹ đầu tư Tăng trưởng ĐP Capital với mục tiêu hỗ trợ các cơ hội tăng trưởng bền vững.",
     category: "Sản phẩm mới",
   },
   {
-    title: "Hội nghị khách hàng thường niên 2024 thành công tốt đẹp",
-    date: "20/12/2023",
-    desc: "Hơn 300 khách hàng tham dự, chia sẻ kết quả đầu tư ấn tượng và chiến lược năm 2024.",
+    title: "Hội thảo Đầu tư thông minh 2025",
+    date: "20/02/2025",
+    desc: "Chia sẻ kiến thức và cơ hội đầu tư tại Lạng Sơn với các chuyên gia tài chính hàng đầu.",
     category: "Sự kiện",
   },
   {
-    title: "Triển vọng thị trường đầu tư Việt Nam năm 2024",
-    date: "10/12/2023",
-    desc: "Phân tích chuyên sâu về xu hướng đầu tư, cơ hội và thách thức trong năm mới.",
-    category: "Phân tích",
+    title: "Ký kết hợp tác chiến lược",
+    date: "10/03/2025",
+    desc: "Đồng Phú Lạng Sơn ký kết hợp tác với các đối tác chiến lược để mở rộng dịch vụ tài chính.",
+    category: "Tin tức",
   },
 ];
 

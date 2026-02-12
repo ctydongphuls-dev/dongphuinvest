@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
 
 const partners = [
-  "Ngân hàng TMCP Ngoại thương",
-  "Ngân hàng TMCP Công thương",
-  "Công ty CK VNDirect",
-  "Quỹ đầu tư Dragon Capital",
-  "Công ty BĐS Vingroup",
-  "Tập đoàn FPT",
+  { name: "Công ty Chứng khoán TCBS", field: "Chứng khoán & Đầu tư" },
+  { name: "Công ty Tư vấn Xây lắp Thiết bị Điện", field: "Xây dựng & Điện" },
+  { name: "Công ty Luật Đồng Phú", field: "Tư vấn pháp lý" },
+  { name: "Ngân hàng Đối tác", field: "Tài chính ngân hàng" },
 ];
 
 const PartnersSection = () => {
@@ -20,17 +18,21 @@ const PartnersSection = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {partners.map((name, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {partners.map(({ name, field }, i) => (
             <motion.div
               key={name}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.05 }}
-              className="flex items-center justify-center p-6 rounded-xl border border-border bg-card hover:border-gold/30 hover:shadow-gold transition-all duration-300 aspect-[3/2]"
+              transition={{ delay: i * 0.1 }}
+              className="flex flex-col items-center justify-center p-6 rounded-xl border border-border bg-card hover:border-gold/30 hover:shadow-lg transition-all duration-300"
             >
-              <p className="text-sm font-medium text-muted-foreground text-center leading-tight">{name}</p>
+              <div className="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mb-3 border border-border">
+                <p className="text-xs font-bold text-gold text-center">{name.split(" ")[0]}</p>
+              </div>
+              <p className="text-sm font-medium text-foreground text-center leading-tight mb-1">{name}</p>
+              <p className="text-xs text-muted-foreground text-center">{field}</p>
             </motion.div>
           ))}
         </div>
