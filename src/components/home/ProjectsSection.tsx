@@ -1,6 +1,7 @@
-import { MapPin, TrendingUp, Calendar } from "lucide-react";
+import { MapPin, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import { useState } from "react";
 
 const projects = [
   {
@@ -11,6 +12,8 @@ const projects = [
     roi: "15-20%/năm",
     date: "Từ 2025 đến nay",
     color: "bg-emerald-500/10 text-emerald-600",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
+    alt: "Biểu đồ chứng khoán tăng trưởng - Quỹ đầu tư ĐP Capital",
   },
   {
     title: "Dự án Trung tâm Khởi nghiệp Lạng Sơn",
@@ -20,8 +23,37 @@ const projects = [
     roi: "Theo dự án",
     date: "Q2/2026",
     color: "bg-blue-500/10 text-blue-600",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
+    alt: "Không gian văn phòng hiện đại - Trung tâm Khởi nghiệp Lạng Sơn",
   },
 ];
+
+const ProjectImage = ({ src, alt }: { src: string; alt: string }) => {
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState(false);
+
+  return (
+    <div className="h-48 overflow-hidden relative bg-muted">
+      {!loaded && !error && (
+        <div className="absolute inset-0 animate-pulse bg-muted" />
+      )}
+      {error ? (
+        <div className="h-full gradient-navy flex items-center justify-center">
+          <span className="text-sm text-muted-foreground">Hình ảnh</span>
+        </div>
+      ) : (
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          onLoad={() => setLoaded(true)}
+          onError={() => setError(true)}
+          className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
+        />
+      )}
+    </div>
+  );
+};
 
 const ProjectsSection = () => {
   return (
@@ -38,7 +70,7 @@ const ProjectsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {projects.map(({ title, location, desc, status, roi, date, color }, i) => (
+          {projects.map(({ title, location, desc, status, roi, date, color, image, alt }, i) => (
             <motion.div
               key={title}
               initial={{ opacity: 0, y: 30 }}
@@ -47,9 +79,7 @@ const ProjectsSection = () => {
               transition={{ delay: i * 0.1 }}
               className="group rounded-xl border border-border overflow-hidden bg-background hover:shadow-lg transition-all duration-300"
             >
-              <div className="h-48 gradient-navy flex items-center justify-center">
-                <TrendingUp className="w-16 h-16 text-gold/30" />
-              </div>
+              <ProjectImage src={image} alt={alt} />
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <Badge className={`${color} border-0 text-xs font-medium`}>{status}</Badge>
