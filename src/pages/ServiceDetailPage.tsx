@@ -8,7 +8,8 @@ import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import {
   Shield, TrendingUp, FileText, Users, CheckCircle2, Phone,
-  ChevronDown, ChevronUp, Loader2, Send, ArrowRight
+  ChevronDown, ChevronUp, Loader2, Send, ArrowRight, Crown,
+  BarChart3, ShieldCheck, Star, AlertTriangle, Newspaper, Radio
 } from "lucide-react";
 
 const steps = [
@@ -21,25 +22,60 @@ const steps = [
 
 const packages = [
   {
-    name: "Gói Cơ bản",
-    minInvest: "500 triệu VNĐ",
-    fee: "1.5%/năm",
-    features: ["Quản lý danh mục cơ bản", "Báo cáo hàng quý", "Tư vấn viên chuyên trách", "Hỗ trợ qua email"],
+    name: "Gói Ủy thác 1",
+    subtitle: "Ủy thác Linh hoạt",
+    icon: BarChart3,
+    desc: "Gói dịch vụ ủy thác đầu tư linh hoạt, không bảo đảm vốn. Quý khách giao vốn để chúng tôi toàn quyền đầu tư kinh doanh và khớp các lệnh giao dịch.",
+    details: [
+      { emoji: "💰", label: "Vốn tối thiểu", value: "100.000.000 VNĐ" },
+      { emoji: "⏱️", label: "Thời hạn", value: "Linh hoạt (không bắt buộc)" },
+      { emoji: "🎯", label: "Mục tiêu", value: "Tăng trưởng tài sản" },
+      { emoji: "📊", label: "Thị trường", value: "Chứng khoán Việt Nam" },
+      { emoji: "🛡️", label: "Bảo đảm vốn", value: "Không" },
+    ],
+    features: ["Vốn đầu tư từ 100 triệu", "Thời hạn linh hoạt", "Toàn quyền giao dịch chuyên nghiệp", "Tập trung thị trường chứng khoán nội địa"],
     highlight: false,
+    cta: "Tư vấn ngay",
+    ctaVariant: "outline" as const,
+    borderClass: "border-border",
   },
   {
-    name: "Gói Nâng cao",
-    minInvest: "2 tỷ VNĐ",
-    fee: "1.2%/năm",
-    features: ["Quản lý danh mục nâng cao", "Báo cáo hàng tháng", "Tư vấn viên cấp cao", "Hỗ trợ 24/7", "Tham gia sự kiện VIP"],
+    name: "Gói Ủy thác 2",
+    subtitle: "Ủy thác Bảo đảm Vốn",
+    icon: ShieldCheck,
+    desc: "Gói dịch vụ ủy thác cao cấp với tài sản bảo đảm vốn. Chúng tôi cam kết bảo đảm vốn bằng tài sản bất động sản thuộc quyền sở hữu của công ty.",
+    details: [
+      { emoji: "💰", label: "Vốn tối thiểu", value: "1.000.000.000 VNĐ" },
+      { emoji: "⏱️", label: "Thời hạn tối thiểu", value: "3 năm" },
+      { emoji: "🎯", label: "Mục tiêu", value: "Tăng trưởng dài hạn" },
+      { emoji: "🛡️", label: "Bảo đảm vốn", value: "Có (Bất động sản)" },
+      { emoji: "📜", label: "Tài sản đảm bảo", value: "Giấy chứng nhận QSDĐ" },
+    ],
+    features: ["Vốn đầu tư từ 1 tỷ đồng", "Cam kết bảo đảm vốn bằng BĐS", "Chiến lược tăng trưởng dài hạn 3+ năm", "An toàn - Minh bạch - Hiệu quả", "Hồ sơ pháp lý đầy đủ"],
     highlight: true,
+    cta: "Đăng ký tư vấn",
+    ctaVariant: "navy" as const,
+    borderClass: "border-gold",
   },
   {
-    name: "Gói Premium",
-    minInvest: "10 tỷ VNĐ",
-    fee: "0.8%/năm",
-    features: ["Quản lý tài sản toàn diện", "Báo cáo hàng tuần", "Giám đốc đầu tư riêng", "Hỗ trợ ưu tiên 24/7", "Sự kiện VIP & Networking", "Tư vấn thuế & pháp lý"],
+    name: "Gói VIP",
+    subtitle: "Tư vấn Đầu tư VIP",
+    icon: Crown,
+    desc: "Dịch vụ tư vấn, khuyến nghị và định hướng đầu tư chứng khoán chuyên sâu dành cho nhà đầu tư tự quản lý danh mục.",
+    details: [],
+    vipServices: [
+      { emoji: "📈", text: "Mã chứng khoán khuyến nghị" },
+      { emoji: "💵", text: "Giá mua/bán tham chiếu hoặc vùng giá khuyến nghị" },
+      { emoji: "📊", text: "Tỷ lệ phân bổ vốn cho từng mã/nhóm ngành" },
+      { emoji: "🚦", text: "Tình trạng khuyến nghị: Mua / Bán / Nắm giữ / Quan sát" },
+      { emoji: "📰", text: "Cập nhật tin doanh nghiệp, thị trường" },
+      { emoji: "⚠️", text: "Cảnh báo rủi ro kịp thời" },
+    ],
+    features: ["Tư vấn chuyên sâu 1-1", "Cập nhật thông tin realtime", "Phân tích kỹ thuật & cơ bản", "Hỗ trợ qua Zalo/Telegram"],
     highlight: false,
+    cta: "Tìm hiểu thêm",
+    ctaVariant: "heroOutline" as const,
+    borderClass: "border-gold/30",
   },
 ];
 
@@ -192,39 +228,85 @@ const ServiceDetailPage = () => {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {packages.map(({ name, minInvest, fee, features, highlight }, i) => (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+              {packages.map(({ name, subtitle, icon: Icon, desc, details, vipServices, features, highlight, cta, ctaVariant, borderClass }, i) => (
                 <motion.div
                   key={name}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
-                  className={`relative p-6 rounded-xl border ${
-                    highlight ? "border-gold shadow-gold" : "border-border"
-                  } bg-background`}
+                  className={`relative p-6 rounded-xl border bg-background transition-all duration-300 hover:shadow-lg ${borderClass} ${
+                    highlight ? "shadow-gold md:scale-105 md:z-10" : ""
+                  }`}
                 >
                   {highlight && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 text-xs font-semibold rounded-full bg-gold text-primary">
-                      Phổ biến nhất
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 text-xs font-semibold rounded-full bg-gold text-primary">
+                      Khuyến nghị
                     </span>
                   )}
-                  <h3 className="text-xl font-bold text-foreground mb-1">{name}</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Tối thiểu: {minInvest}</p>
-                  <p className="text-3xl font-bold text-gold mb-6">{fee}</p>
-                  <ul className="space-y-2.5 mb-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${highlight ? "bg-gold/10" : "bg-primary/5"}`}>
+                      <Icon className={`w-5 h-5 ${highlight ? "text-gold" : "text-primary"}`} />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-foreground">{name}</h3>
+                      <p className="text-xs text-muted-foreground">{subtitle}</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{desc}</p>
+
+                  {/* Details table */}
+                  {details.length > 0 && (
+                    <div className="space-y-2 mb-4 p-3 rounded-lg bg-muted/50">
+                      {details.map(({ emoji, label, value }) => (
+                        <div key={label} className="flex items-start gap-2 text-sm">
+                          <span>{emoji}</span>
+                          <span className="text-muted-foreground">{label}:</span>
+                          <span className="font-medium text-foreground ml-auto text-right">{value}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* VIP services */}
+                  {vipServices && vipServices.length > 0 && (
+                    <div className="space-y-2 mb-4 p-3 rounded-lg bg-muted/50">
+                      <p className="text-xs font-semibold text-foreground mb-2">Nội dung dịch vụ:</p>
+                      {vipServices.map(({ emoji, text }) => (
+                        <div key={text} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <span>{emoji}</span>
+                          <span>{text}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Features */}
+                  <ul className="space-y-2 mb-6">
                     {features.map((f) => (
                       <li key={f} className="flex items-center gap-2 text-sm text-muted-foreground">
-                        <CheckCircle2 className="w-4 h-4 text-gold shrink-0" />
+                        <CheckCircle2 className={`w-4 h-4 shrink-0 ${highlight ? "text-gold" : "text-primary"}`} />
                         {f}
                       </li>
                     ))}
                   </ul>
-                  <Button variant={highlight ? "gold" : "navy"} className="w-full" asChild>
-                    <a href="#register">Đăng ký ngay</a>
+                  <Button variant={ctaVariant} className="w-full" asChild>
+                    <a href="#register">{cta}</a>
                   </Button>
                 </motion.div>
               ))}
+            </div>
+
+            <p className="text-center text-xs text-muted-foreground mt-8">
+              * Các điều khoản chi tiết sẽ được thể hiện trong Hợp đồng. Vui lòng liên hệ để được tư vấn cụ thể.
+            </p>
+            <div className="text-center mt-4">
+              <Button variant="gold" size="lg" asChild>
+                <a href="tel:+84947223888">
+                  <Phone className="w-4 h-4 mr-2" /> Liên hệ tư vấn miễn phí
+                </a>
+              </Button>
             </div>
           </div>
         </section>
@@ -326,11 +408,15 @@ const ServiceDetailPage = () => {
               Sẵn sàng bắt đầu đầu tư?
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Liên hệ ngay hotline <span className="font-semibold text-gold">1900 xxxx</span> để được tư vấn miễn phí
+              Liên hệ ngay hotline{" "}
+              <a href="tel:+84947223888" className="font-bold text-gold hover:text-gold-light transition-colors">
+                <Phone className="w-4 h-4 inline mr-1" />(+84) 0947 223 888
+              </a>{" "}
+              để được tư vấn miễn phí
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="gold" size="lg" asChild>
-                <a href="tel:1900xxxx">
+                <a href="tel:+84947223888">
                   <Phone className="w-4 h-4 mr-2" /> Gọi ngay
                 </a>
               </Button>
