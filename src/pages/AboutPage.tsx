@@ -1,32 +1,20 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Shield, Eye, Award, Target, Calendar, Users, TrendingUp, Building } from "lucide-react";
+import { Eye, Target, Home, TrendingUp, Rocket, Trophy, FileCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
 const timeline = [
-  { year: "2013", title: "Thành lập công ty", desc: "Công ty Cổ phần Đầu tư và Phát triển Đồng Phú Lạng Sơn chính thức được thành lập." },
-  { year: "2015", title: "Mở rộng dịch vụ", desc: "Ra mắt dịch vụ ủy thác đầu tư và quản lý danh mục cho khách hàng cá nhân." },
-  { year: "2018", title: "Cột mốc 100 tỷ", desc: "Tổng tài sản quản lý vượt mốc 100 tỷ đồng, phục vụ hơn 200 khách hàng." },
-  { year: "2020", title: "Chuyển đổi số", desc: "Triển khai nền tảng quản lý đầu tư trực tuyến, nâng cao trải nghiệm khách hàng." },
-  { year: "2023", title: "Phát triển bền vững", desc: "Mở rộng sang lĩnh vực năng lượng tái tạo và đầu tư bền vững." },
-  { year: "2024", title: "1,000+ tỷ đồng", desc: "Tổng tài sản quản lý vượt 1,000 tỷ đồng với hơn 500 khách hàng tin tưởng." },
+  { year: "2016", title: "Khởi đầu hành trình", icon: Home, desc: "Bắt đầu hoạt động theo mô hình công ty quản lý quỹ gia đình." },
+  { year: "2016-2022", title: "Xây dựng nền tảng", icon: TrendingUp, desc: "6 năm vận hành và phát triển theo mô hình quỹ gia đình, tích lũy kinh nghiệm và xây dựng chiến lược đầu tư hiệu quả." },
+  { year: "2023", title: "Chuyển đổi & Mở rộng", icon: Rocket, desc: "Chính thức thành lập Công ty Cổ phần, tiếp nhận khoản đầu tư bên ngoài đầu tiên trị giá 10 tỷ đồng." },
+  { year: "Cuối 2025", title: "Cột mốc tăng trưởng", icon: Trophy, desc: "Tổng tài sản quản lý vượt 50 tỷ đồng • Hơn 10 khách hàng ủy thác tin tưởng • 200+ khách hàng đăng ký nhận thông tin tư vấn." },
 ];
 
 const leaders = [
-  { name: "Nguyễn Đức Thành", role: "Chủ tịch HĐQT", initials: "NĐT", desc: "20 năm kinh nghiệm trong lĩnh vực tài chính ngân hàng và đầu tư." },
-  { name: "Trần Minh Quang", role: "Tổng Giám đốc", initials: "TMQ", desc: "Chuyên gia quản lý đầu tư với bằng CFA và MBA từ đại học quốc tế." },
+  { name: "Hoàng Viễn Trí Anh", role: "Nhà sáng lập & Cố vấn Đầu tư", initials: "TA", desc: "MBA - Đại học Quốc tế. 10 năm kinh nghiệm trong lĩnh vực tài chính và đầu tư." },
+  { name: "Hoàng Văn Quyết", role: "Chủ tịch HĐQT kiêm Tổng Giám đốc", initials: "HQ", desc: "8 năm kinh nghiệm trong lĩnh vực tài chính ngân hàng và đầu tư." },
+  { name: "Nguyễn Thị Minh Anh", role: "Giám đốc Đầu tư", initials: "MA", desc: "CFA Charterholder. Chuyên gia quản lý đầu tư và phân tích thị trường với thành tích đầu tư ấn tượng." },
   { name: "Lê Thị Mai Anh", role: "Giám đốc Tài chính", initials: "LMA", desc: "15 năm kinh nghiệm quản lý tài chính doanh nghiệp và quỹ đầu tư." },
-  { name: "Phạm Văn Hùng", role: "Giám đốc Đầu tư", initials: "PVH", desc: "Chuyên gia phân tích thị trường với thành tích đầu tư ấn tượng." },
-  { name: "Hoàng Thị Lan", role: "Giám đốc Pháp chế", initials: "HTL", desc: "Luật sư với kinh nghiệm chuyên sâu về luật đầu tư và chứng khoán." },
-  { name: "Đỗ Quốc Bảo", role: "Giám đốc Công nghệ", initials: "ĐQB", desc: "Chuyên gia fintech với kinh nghiệm xây dựng nền tảng đầu tư số." },
-];
-
-const awards = [
-  "Giấy phép kinh doanh số 1234567890 do Sở KH&ĐT tỉnh Lạng Sơn cấp",
-  "Chứng nhận ISO 9001:2015 về Hệ thống quản lý chất lượng",
-  "Giải thưởng Doanh nghiệp đầu tư uy tín 2023",
-  "Top 50 Doanh nghiệp tài chính tăng trưởng nhanh nhất Việt Nam",
-  "Chứng nhận Doanh nghiệp phát triển bền vững 2024",
 ];
 
 const AboutPage = () => {
@@ -103,14 +91,14 @@ const AboutPage = () => {
 
             <div className="relative">
               <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-border" />
-              <div className="space-y-8">
-                {timeline.map(({ year, title, desc }, i) => (
+              <div className="space-y-10">
+                {timeline.map(({ year, title, icon: Icon, desc }, i) => (
                   <motion.div
                     key={year}
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ delay: i * 0.08 }}
+                    transition={{ delay: i * 0.12 }}
                     className={`relative flex items-start gap-6 md:gap-0 ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
                   >
                     <div className={`hidden md:block md:w-1/2 ${i % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
@@ -119,10 +107,10 @@ const AboutPage = () => {
                         <p className="text-sm text-muted-foreground mt-1">{desc}</p>
                       </div>
                     </div>
-                    <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-primary flex items-center justify-center z-10">
-                      <span className="text-xs font-bold text-gold">{year.slice(2)}</span>
+                    <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-primary flex items-center justify-center z-10 border-2 border-gold/40">
+                      <Icon className="w-4 h-4 text-gold" />
                     </div>
-                    <div className={`ml-12 md:hidden`}>
+                    <div className="ml-12 md:hidden">
                       <p className="text-xs font-bold text-gold mb-1">{year}</p>
                       <h3 className="text-base font-semibold text-foreground">{title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{desc}</p>
@@ -147,7 +135,7 @@ const AboutPage = () => {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {leaders.map(({ name, role, initials, desc }, i) => (
                 <motion.div
                   key={name}
@@ -169,31 +157,28 @@ const AboutPage = () => {
           </div>
         </section>
 
-        {/* Awards */}
+        {/* License */}
         <section className="section-padding bg-background">
-          <div className="container-custom">
-            <div className="text-center mb-14">
-              <span className="text-gold font-semibold text-sm uppercase tracking-wide">Thành tựu</span>
-              <h2 className="text-2xl md:text-4xl font-bold text-foreground mt-2">
-                Giấy phép & Chứng nhận
-              </h2>
+          <div className="container-custom max-w-2xl">
+            <div className="text-center mb-10">
+              <span className="text-gold font-semibold text-sm uppercase tracking-wide">Pháp lý</span>
+              <h2 className="text-2xl md:text-4xl font-bold text-foreground mt-2">Giấy phép hoạt động</h2>
             </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {awards.map((award, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.08 }}
-                  className="flex items-start gap-3 p-5 rounded-xl border border-border bg-card"
-                >
-                  <Award className="w-5 h-5 text-gold shrink-0 mt-0.5" />
-                  <p className="text-sm text-foreground">{award}</p>
-                </motion.div>
-              ))}
-            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-xl border border-gold/30 bg-card flex items-start gap-4"
+            >
+              <div className="w-12 h-12 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+                <FileCheck className="w-6 h-6 text-gold" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground">Giấy chứng nhận Đăng ký Kinh doanh</h3>
+                <p className="text-sm text-muted-foreground mt-1">Số giấy phép: <span className="font-medium text-foreground">4900891469</span></p>
+                <p className="text-sm text-muted-foreground">Cơ quan cấp: Sở Kế hoạch và Đầu tư tỉnh Lạng Sơn</p>
+              </div>
+            </motion.div>
           </div>
         </section>
       </main>
