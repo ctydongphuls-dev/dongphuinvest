@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -17,9 +17,35 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
 
+  // Handle scroll after cross-page navigation (e.g. /about -> /#projects)
+  useEffect(() => {
+    if (location.pathname === "/" && location.hash) {
+      const id = location.hash.replace("#", "");
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) {
+          const offset = 80;
+          const top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top, behavior: "smooth" });
+        }
+      }, 300);
+    }
+  }, [location]);
+
   const isActive = (href: string) => {
     if (href === "/") return location.pathname === "/";
     return location.pathname.startsWith(href.split("#")[0]) && !href.startsWith("/#");
+  };
+
+  const scrollToSection = (id: string) => {
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        const offset = 80;
+        const top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: "smooth" });
+      }
+    }, 100);
   };
 
   const handleNavClick = (href: string) => {
@@ -27,9 +53,9 @@ const Header = () => {
     if (href.startsWith("/#")) {
       const id = href.replace("/#", "");
       if (location.pathname === "/") {
-        const el = document.getElementById(id);
-        el?.scrollIntoView({ behavior: "smooth" });
+        scrollToSection(id);
       }
+      // If on another page, React Router navigates to /, then useEffect below handles scroll
     }
   };
 
