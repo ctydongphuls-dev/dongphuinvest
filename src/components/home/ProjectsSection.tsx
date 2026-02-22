@@ -7,13 +7,13 @@ const projects = [
   {
     title: "Quỹ đầu tư Tăng trưởng ĐP Capital",
     location: "Lạng Sơn & Vùng phụ cận",
-    desc: "Quỹ đầu tư tập trung vào các cơ hội tăng trưởng bền vững tại khu vực Lạng Sơn và vùng phụ cận.",
+    desc: "Quỹ đầu tư tập trung vào các trái phiếu, cổ phiếu tăng trưởng bền vững trên thị trường Chứng khoán Việt Nam.",
     status: "Đang hoạt động",
     roi: "15-20%/năm",
     date: "Từ 2025 đến nay",
     color: "bg-emerald-500/10 text-emerald-600",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
-    alt: "Biểu đồ chứng khoán tăng trưởng - Quỹ đầu tư ĐP Capital",
+    image: "https://2.bp.blogspot.com/-O2UQjsGVFq0/WJhXiTn1OdI/AAAAAAAADx8/atAcJJeuaQARI4TabrAcV6iVLbJVgybMACLcB/s400/DauTuChungChiQuy.jpg",
+    alt: "Quỹ đầu tư Tăng trưởng ĐP Capital",
   },
   {
     title: "Dự án Trung tâm Khởi nghiệp Lạng Sơn",
@@ -23,8 +23,8 @@ const projects = [
     roi: "Theo dự án",
     date: "Q2/2026",
     color: "bg-blue-500/10 text-blue-600",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-    alt: "Không gian văn phòng hiện đại - Trung tâm Khởi nghiệp Lạng Sơn",
+    image: "https://cafefcdn.com/203337114487263232/2025/8/27/undefined-1-17562693125651308410700.png",
+    alt: "Dự án Trung tâm Khởi nghiệp Lạng Sơn",
   },
 ];
 
