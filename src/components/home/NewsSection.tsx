@@ -8,8 +8,8 @@ const news = [
     date: "15/01/2025",
     desc: "Công ty chính thức ra mắt Quỹ đầu tư Tăng trưởng ĐP Capital với mục tiêu hỗ trợ các cơ hội tăng trưởng bền vững.",
     category: "Sản phẩm mới",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=340&fit=crop",
-    alt: "Lễ ra mắt Quỹ đầu tư ĐP Capital năm 2025",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771772268518.png",
+    alt: "Lễ ra mắt Quỹ đầu tư ĐP Capital 2025",
     overlay: "RA MẮT QUỸ ĐẦU TƯ",
   },
   {
@@ -17,8 +17,8 @@ const news = [
     date: "20/02/2025",
     desc: "Chia sẻ kiến thức và cơ hội đầu tư tại Lạng Sơn với các chuyên gia tài chính hàng đầu.",
     category: "Sự kiện",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=340&fit=crop",
-    alt: "Hội thảo Đầu tư thông minh 2025 tại Lạng Sơn",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771769340577.png",
+    alt: "Hội thảo Đầu tư thông minh 2025",
     overlay: "HỘI THẢO ĐẦU TƯ 2025",
   },
   {
@@ -26,8 +26,8 @@ const news = [
     date: "10/03/2025",
     desc: "Đồng Phú Lạng Sơn ký kết hợp tác với các đối tác chiến lược để mở rộng dịch vụ tài chính.",
     category: "Tin tức",
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=340&fit=crop",
-    alt: "Lễ ký kết hợp tác chiến lược - bắt tay đối tác",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771770007525.png",
+    alt: "Lễ ký kết hợp tác chiến lược 2025",
     overlay: "KÝ KẾT HỢP TÁC",
   },
 ];
