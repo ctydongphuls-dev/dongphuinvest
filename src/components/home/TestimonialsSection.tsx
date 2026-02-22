@@ -8,7 +8,7 @@ const testimonials = [
     role: "Doanh nhân",
     content: "Tôi đã ủy thác đầu tư tại Đồng Phú Lạng Sơn hơn 3 năm. Lợi nhuận ổn định, minh bạch và đội ngũ tư vấn rất chuyên nghiệp. Hoàn toàn yên tâm khi giao phó tài sản.",
     initials: "NM",
-    avatar: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=200&h=200&fit=crop&crop=face",
+    avatar: "https://img1.baidu.com/it/u=2033071875,1111021755&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
   },
   {
     name: "Trần Thị Hương",
@@ -22,7 +22,7 @@ const testimonials = [
     role: "Nhà đầu tư cá nhân",
     content: "Từ khi hợp tác với Đồng Phú Lạng Sơn, danh mục đầu tư của tôi tăng trưởng đều đặn 18%/năm. Chiến lược đầu tư được thiết kế riêng, rất phù hợp với mục tiêu của tôi.",
     initials: "LP",
-    avatar: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?w=200&h=200&fit=crop&crop=face",
+    avatar: "https://img1.baidu.com/it/u=2713776215,3245639858&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=752",
   },
 ];
 
