@@ -8,7 +8,7 @@ const testimonials = [
     role: "Doanh nhân",
     content: "Tôi đã ủy thác đầu tư tại Đồng Phú Lạng Sơn hơn 3 năm. Lợi nhuận ổn định, minh bạch và đội ngũ tư vấn rất chuyên nghiệp. Hoàn toàn yên tâm khi giao phó tài sản.",
     initials: "NM",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+    avatar: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=200&h=200&fit=crop&crop=face",
   },
   {
     name: "Trần Thị Hương",
@@ -22,7 +22,7 @@ const testimonials = [
     role: "Nhà đầu tư cá nhân",
     content: "Từ khi hợp tác với Đồng Phú Lạng Sơn, danh mục đầu tư của tôi tăng trưởng đều đặn 18%/năm. Chiến lược đầu tư được thiết kế riêng, rất phù hợp với mục tiêu của tôi.",
     initials: "LP",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+    avatar: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?w=200&h=200&fit=crop&crop=face",
   },
 ];
 
@@ -43,7 +43,7 @@ const AvatarImg = ({ src, initials }: { src: string; initials: string }) => {
       alt={`Avatar ${initials}`}
       loading="lazy"
       onError={() => setError(true)}
-      className="w-12 h-12 rounded-full object-cover border-[3px] border-[hsl(45,70%,47%)]"
+      className="w-12 h-12 rounded-full object-cover object-top border-[3px] border-[hsl(45,70%,47%)]"
     />
   );
 };
