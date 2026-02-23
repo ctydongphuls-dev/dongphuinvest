@@ -11,9 +11,9 @@ const timeline = [
 ];
 
 const leaders = [
-  { name: "Hoàng Viễn Trí Anh", role: "Nhà sáng lập & Cố vấn Đầu tư", initials: "TA", image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771834505323.png", alt: "Ông Hoàng Viễn Trí Anh - Nhà sáng lập & Cố vấn Đầu tư", desc: "MBA - Đại học Quốc tế. 10 năm kinh nghiệm trong lĩnh vực tài chính và đầu tư." },
+  { name: "Hoàng Viễn Trí Anh", role: "Nhà sáng lập & Cố vấn Đầu tư", initials: "TA", image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771836248520.png", alt: "Ông Hoàng Viễn Trí Anh - Nhà sáng lập & Cố vấn Đầu tư", desc: "MBA - Đại học Quốc tế. 10 năm kinh nghiệm trong lĩnh vực tài chính và đầu tư." },
   { name: "Hoàng Văn Quyết", role: "Chủ tịch HĐQT kiêm Tổng Giám đốc", initials: "HQ", image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771834581537.png", alt: "Ông Hoàng Văn Quyết - Chủ tịch HĐQT kiêm Tổng Giám đốc", desc: "8 năm kinh nghiệm trong lĩnh vực tài chính ngân hàng và đầu tư." },
-  { name: "Nguyễn Thị Minh Anh", role: "Giám đốc Đầu tư", initials: "MA", image: "https://img1.baidu.com/it/u=407630968,3894804235&fm=253&app=138&f=JPEG?w=800&h=1422", alt: "Bà Nguyễn Thị Minh Anh - Giám đốc Đầu tư", objectPosition: "center 30%", scale: 1.4, desc: "CFA Charterholder. Chuyên gia quản lý đầu tư và phân tích thị trường với thành tích đầu tư ấn tượng." },
+  { name: "Nguyễn Thị Minh Anh", role: "Giám đốc Đầu tư", initials: "MA", image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771836190594.png", alt: "Bà Nguyễn Thị Minh Anh - Giám đốc Đầu tư", desc: "CFA Charterholder. Chuyên gia quản lý đầu tư và phân tích thị trường với thành tích đầu tư ấn tượng." },
   { name: "Lê Thị Mai Anh", role: "Giám đốc Tài chính", initials: "LMA", image: "https://img0.baidu.com/it/u=2570846430,2345236527&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1200", alt: "Bà Lê Thị Mai Anh - Giám đốc Tài chính", desc: "15 năm kinh nghiệm quản lý tài chính doanh nghiệp và quỹ đầu tư." },
 ];
 
@@ -136,7 +136,7 @@ const AboutPage = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {leaders.map(({ name, role, initials, image, alt, desc, objectPosition, scale }, i) => (
+              {leaders.map(({ name, role, initials, image, alt, desc }, i) => (
                 <motion.div
                   key={name}
                   initial={{ opacity: 0, y: 30 }}
@@ -151,10 +151,7 @@ const AboutPage = () => {
                       alt={alt}
                       loading="lazy"
                       className="w-full h-full object-cover"
-                      style={{
-                        objectPosition: objectPosition || "center top",
-                        ...(scale ? { transform: `scale(${scale})`, transformOrigin: objectPosition || "center 30%" } : {}),
-                      }}
+                      style={{ objectPosition: "center center" }}
                       onError={(e) => {
                         const target = e.currentTarget;
                         target.style.display = 'none';
