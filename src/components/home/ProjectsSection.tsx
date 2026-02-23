@@ -12,7 +12,7 @@ const projects = [
     roi: "15-20%/năm",
     date: "Từ 2025 đến nay",
     color: "bg-emerald-500/10 text-emerald-600",
-    image: "https://2.bp.blogspot.com/-O2UQjsGVFq0/WJhXiTn1OdI/AAAAAAAADx8/atAcJJeuaQARI4TabrAcV6iVLbJVgybMACLcB/s400/DauTuChungChiQuy.jpg",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771824856919.png",
     alt: "Quỹ đầu tư Tăng trưởng ĐP Capital",
   },
   {
