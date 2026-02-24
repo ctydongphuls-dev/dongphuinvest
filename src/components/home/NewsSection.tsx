@@ -1,6 +1,7 @@
 import { Calendar, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const news = [
   {
@@ -11,6 +12,7 @@ const news = [
     image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771772268518.png",
     alt: "Lễ ra mắt Quỹ đầu tư ĐP Capital 2025",
     overlay: "RA MẮT QUỸ ĐẦU TƯ",
+    href: "/tin-tuc/ra-mat-quy-dau-tu-dp-capital",
   },
   {
     title: "Hội thảo Đầu tư thông minh 2025",
@@ -20,6 +22,7 @@ const news = [
     image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771769340577.png",
     alt: "Hội thảo Đầu tư thông minh 2025",
     overlay: "HỘI THẢO ĐẦU TƯ 2025",
+    href: "/tin-tuc/hoi-thao-dau-tu-thong-minh-2025",
   },
   {
     title: "Ký kết hợp tác chiến lược",
@@ -29,6 +32,7 @@ const news = [
     image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771770007525.png",
     alt: "Lễ ký kết hợp tác chiến lược 2025",
     overlay: "KÝ KẾT HỢP TÁC",
+    href: "/tin-tuc/ky-ket-hop-tac-chien-luoc",
   },
 ];
 
@@ -78,7 +82,7 @@ const NewsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {news.map(({ title, date, desc, category, image, alt, overlay }, i) => (
+          {news.map(({ title, date, desc, category, image, alt, overlay, href }, i) => (
             <motion.article
               key={title}
               initial={{ opacity: 0, y: 30 }}
@@ -96,9 +100,9 @@ const NewsSection = () => {
                   {title}
                 </h3>
                 <p className="text-sm text-muted-foreground line-clamp-2 mb-3">{desc}</p>
-                <a href="#" className="inline-flex items-center gap-1 text-sm font-medium text-gold hover:text-gold-dark transition-colors">
+                <Link to={href} className="inline-flex items-center gap-1 text-sm font-medium text-gold hover:text-gold-dark transition-colors">
                   Đọc thêm <ArrowRight className="w-3 h-3" />
-                </a>
+                </Link>
               </div>
             </motion.article>
           ))}
