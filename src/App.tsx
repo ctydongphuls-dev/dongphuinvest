@@ -7,6 +7,9 @@ import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import ServiceDetailPage from "./pages/ServiceDetailPage";
 import DashboardPage from "./pages/DashboardPage";
+import RaMatQuyDauTu from "./pages/news/RaMatQuyDauTu";
+import HoiThaoDauTu from "./pages/news/HoiThaoDauTu";
+import KyKetHopTac from "./pages/news/KyKetHopTac";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +24,9 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services/uy-thac-dau-tu" element={<ServiceDetailPage />} />
+          <Route path="/tin-tuc/ra-mat-quy-dau-tu-dp-capital" element={<RaMatQuyDauTu />} />
+          <Route path="/tin-tuc/hoi-thao-dau-tu-thong-minh-2025" element={<HoiThaoDauTu />} />
+          <Route path="/tin-tuc/ky-ket-hop-tac-chien-luoc" element={<KyKetHopTac />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
