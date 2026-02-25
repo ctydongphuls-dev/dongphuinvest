@@ -132,13 +132,27 @@ const ContactSection = () => {
                </div>
              ))}
 
-            {/* Map placeholder */}
-            <div className="rounded-xl overflow-hidden border border-border h-48 bg-muted flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                <p className="text-sm text-muted-foreground">Google Maps</p>
-              </div>
+            {/* Google Maps */}
+            <div className="rounded-xl overflow-hidden border border-border">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.5!2d106.7554986!3d21.8419007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36b54f0c1f4df3e7%3A0x1234567890abcdef!2s85+Nguy%E1%BB%85n+Th%C3%A1i+H%E1%BB%8Dc%2C+Chi+L%C4%83ng%2C+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n!5e0!3m2!1svi!2svn!4v1700000000000!5m2!1svi!2svn"
+                width="100%"
+                height="220"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Vị trí Đồng Phú Lạng Sơn trên Google Maps"
+              />
             </div>
+            <a
+              href="https://www.google.com/maps/place/85+Nguy%E1%BB%85n+Th%C3%A1i+H%E1%BB%8Dc,+Chi+L%C4%83ng,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8419007,106.7554986,17z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm text-gold hover:underline mt-2"
+            >
+              <MapPin className="w-3.5 h-3.5" /> Xem bản đồ lớn hơn
+            </a>
           </motion.div>
         </div>
       </div>

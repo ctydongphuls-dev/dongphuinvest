@@ -151,7 +151,11 @@ const AboutPage = () => {
                       alt={alt}
                       loading="lazy"
                       className="w-full h-full object-cover"
-                      style={{ objectPosition: "center center" }}
+                      style={{
+                        objectPosition: name === "Hoàng Văn Quyết" ? "center 0%" : "center center",
+                        transform: name === "Hoàng Văn Quyết" ? "scale(1.2)" : undefined,
+                        transformOrigin: name === "Hoàng Văn Quyết" ? "center 25%" : undefined,
+                      }}
                       onError={(e) => {
                         const target = e.currentTarget;
                         target.style.display = 'none';
