@@ -7,7 +7,7 @@ const timeline = [
   { year: "2016", title: "Khởi đầu hành trình", icon: Home, desc: "Bắt đầu hoạt động theo mô hình công ty quản lý quỹ gia đình." },
   { year: "2016-2022", title: "Xây dựng nền tảng", icon: TrendingUp, desc: "6 năm vận hành và phát triển theo mô hình quỹ gia đình, tích lũy kinh nghiệm và xây dựng chiến lược đầu tư hiệu quả." },
   { year: "2023", title: "Chuyển đổi & Mở rộng", icon: Rocket, desc: "Chính thức thành lập Công ty Cổ phần, tiếp nhận khoản đầu tư bên ngoài đầu tiên trị giá 10 tỷ đồng." },
-  { year: "Cuối 2025", title: "Cột mốc tăng trưởng", icon: Trophy, desc: "Tổng tài sản quản lý vượt 50 tỷ đồng • Hơn 10 khách hàng ủy thác tin tưởng • 200+ khách hàng đăng ký nhận thông tin tư vấn." },
+  { year: "Cuối 2025", title: "Cột mốc tăng trưởng", icon: Trophy, desc: "Tổng tài sản quản lý vượt 200 tỷ đồng • Hơn 50 khách hàng ủy thác tin tưởng • 200+ khách hàng đăng ký nhận thông tin tư vấn." },
 ];
 
 const leaders = [
