@@ -45,9 +45,9 @@ const KyKetHopTac = () => (
       <li>Hỗ trợ lẫn nhau trong các hoạt động kinh doanh</li>
     </ul>
 
-    <h3 className="text-lg font-semibold text-foreground mt-6 mb-3">2. Công ty Luật Đồng Phú - Tư vấn pháp lý</h3>
+    <h3 className="text-lg font-semibold text-foreground mt-6 mb-3">2. Công ty Luật Phương Lan - Tư vấn pháp lý</h3>
     <p className="text-muted-foreground leading-relaxed mb-4">
-      Đồng Phú Lạng Sơn hợp tác với Công ty Luật Đồng Phú để đảm bảo mọi hoạt động đầu tư và giao dịch đều tuân thủ pháp luật, bảo vệ quyền lợi tối đa cho nhà đầu tư.
+      Đồng Phú Lạng Sơn hợp tác với Công ty Luật Phương Lan để đảm bảo mọi hoạt động đầu tư và giao dịch đều tuân thủ pháp luật, bảo vệ quyền lợi tối đa cho nhà đầu tư.
     </p>
     <p className="text-sm font-semibold text-foreground mb-2">Nội dung hợp tác:</p>
     <ul className="space-y-1 text-muted-foreground mb-4 list-disc pl-5">
