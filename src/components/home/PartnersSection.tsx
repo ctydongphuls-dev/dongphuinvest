@@ -17,9 +17,9 @@ const partners = [
     icon: Zap,
   },
   {
-    name: "Công ty Luật Đồng Phú",
+    name: "Công ty Luật Phương Lan",
     field: "Tư vấn pháp lý",
-    abbr: "LUẬT ĐỒNG PHÚ",
+    abbr: "LUẬT PHƯƠNG LAN",
     gradient: "from-[#1e3a5f] to-[#0f2744]",
     icon: Scale,
     textGold: true,
