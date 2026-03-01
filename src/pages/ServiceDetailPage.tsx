@@ -74,7 +74,7 @@ const packages = [
     features: ["Tư vấn chuyên sâu 1-1", "Cập nhật thông tin realtime", "Phân tích kỹ thuật & cơ bản", "Hỗ trợ qua Zalo/Telegram"],
     highlight: false,
     cta: "Tìm hiểu thêm",
-    ctaVariant: "heroOutline" as const,
+    ctaVariant: "outline" as const,
     borderClass: "border-gold/30",
   },
 ];
@@ -172,8 +172,8 @@ const ServiceDetailPage = () => {
                 {[
                   { icon: Shield, label: "Bảo toàn vốn", val: "99.5%" },
                   { icon: TrendingUp, label: "Lợi nhuận TB", val: "18%/năm" },
-                  { icon: Users, label: "Khách hàng", val: "500+" },
-                  { icon: FileText, label: "AUM", val: "1,000+ tỷ" },
+                  { icon: Users, label: "Khách hàng", val: "100+" },
+                  { icon: FileText, label: "Tài sản quản lý", val: "200+ tỷ" },
                 ].map(({ icon: Icon, label, val }) => (
                   <div key={label} className="p-5 rounded-xl border border-border bg-background text-center">
                     <Icon className="w-8 h-8 text-gold mx-auto mb-2" />
@@ -291,7 +291,7 @@ const ServiceDetailPage = () => {
                       </li>
                     ))}
                   </ul>
-                  <Button variant={ctaVariant} className="w-full" asChild>
+                  <Button variant={ctaVariant} className={`w-full ${name === "Gói VIP" ? "border-gold text-gold hover:bg-gold/10" : ""}`} asChild>
                     <a href="#register">{cta}</a>
                   </Button>
                 </motion.div>
