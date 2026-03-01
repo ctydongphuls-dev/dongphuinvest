@@ -4,7 +4,7 @@ const relatedArticles = [
   {
     title: "Ra mắt Quỹ đầu tư ĐP Capital",
     date: "15/01/2025",
-    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771772268518.png",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1772025677399.png",
     href: "/tin-tuc/ra-mat-quy-dau-tu-dp-capital",
     category: "Sản phẩm mới",
   },

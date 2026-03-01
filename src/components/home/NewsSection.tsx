@@ -9,7 +9,7 @@ const news = [
     date: "15/01/2025",
     desc: "Công ty chính thức ra mắt Quỹ đầu tư Tăng trưởng ĐP Capital với mục tiêu hỗ trợ các cơ hội tăng trưởng bền vững.",
     category: "Sản phẩm mới",
-    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1771772268518.png",
+    image: "https://kaikun-ai-image.s3.ap-northeast-1.amazonaws.com/58f3c039-d005-4011-aea8-10617b05b557%2F1772025677399.png",
     alt: "Lễ ra mắt Quỹ đầu tư ĐP Capital 2025",
     overlay: "RA MẮT QUỸ ĐẦU TƯ",
     href: "/tin-tuc/ra-mat-quy-dau-tu-dp-capital",
