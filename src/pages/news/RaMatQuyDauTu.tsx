@@ -33,7 +33,7 @@ const RaMatQuyDauTu = () => (
 
     <h2 className="text-xl font-bold text-foreground mt-8 mb-4">Về Quỹ đầu tư ĐP Capital</h2>
     <p className="text-muted-foreground leading-relaxed mb-6">
-      Quỹ đầu tư Tăng trưởng ĐP Capital được thành lập với mục tiêu mang đến cho nhà đầu tư cơ hội tiếp cận thị trường chứng khoán Việt Nam một cách chuyên nghiệp và hiệu quả. Quỹ tập trung vào các trái phiếu, cổ phiếu tăng trưởng bền vững trên thị trường Chứng khoán Việt Nam.
+      Quỹ đầu tư Tăng trưởng ĐP Capital được thành lập với mục tiêu mang đến cho nhà đầu tư cơ hội tiếp cận thị trường chứng khoán Việt Nam một cách chuyên nghiệp và hiệu quả. Quỹ tập trung vào các trái phiếu, cổ phiếu, công ty tăng trưởng bền vững trên thị trường Chứng khoán Việt Nam.
     </p>
 
     <h2 className="text-xl font-bold text-foreground mt-8 mb-4">Điểm nổi bật của Quỹ ĐP Capital</h2>

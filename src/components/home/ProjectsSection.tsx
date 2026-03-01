@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Quỹ đầu tư Tăng trưởng ĐP Capital",
     location: "Lạng Sơn & Vùng phụ cận",
-    desc: "Quỹ đầu tư tập trung vào các trái phiếu, cổ phiếu tăng trưởng bền vững trên thị trường Chứng khoán Việt Nam.",
+    desc: "Quỹ đầu tư tập trung vào các trái phiếu, cổ phiếu, công ty tăng trưởng bền vững trên thị trường Chứng khoán Việt Nam.",
     status: "Đang hoạt động",
     roi: "15-20%/năm",
     date: "Từ 2025 đến nay",
