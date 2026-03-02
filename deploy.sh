@@ -5,7 +5,7 @@
 
 # Configuration
 REPO_NAME="dongphuinvest"
-REPO_OWNER="dongphuinvest"
+REPO_OWNER="ctydongphuls-dev"
 GITHUB_EMAIL="ctydongphuls@gmail.com"
 GITHUB_NAME="Đồng Phú Lạng Sơn"
 

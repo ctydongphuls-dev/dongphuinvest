@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. **GitHub Account**: You need a GitHub account. The script is configured for the `dongphuinvest` account.
+1. **GitHub Account**: You need a GitHub account. The script is configured for the `ctydongphuls-dev` account.
 2. **Personal Access Token (PAT)**: Generate a PAT with the following scopes:
    - `repo` - Full control of private repositories
    - `workflow` - Update GitHub Action workflows
@@ -59,7 +59,7 @@
 ERROR: Push to remote failed
 ```
 - Check if your PAT is valid and has the correct scopes
-- Verify you have access to the `dongphuinvest/dongphuinvest` repository
+- Verify you have access to the `ctydongphuls-dev/dongphuinvest` repository
 
 #### Build Failures
 ```
@@ -78,7 +78,7 @@ fatal: could not read Password for 'https://--help@github.com'
 ## Verification
 
 After deployment, your website should be available at:
-`https://dongphuinvest.github.io/dongphuinvest/`
+`https://ctydongphuls-dev.github.io/dongphuinvest/`
 
 ## Manual Deployment (Alternative)
 
