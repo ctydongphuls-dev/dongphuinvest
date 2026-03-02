@@ -81,7 +81,7 @@ const packages = [
 
 const faqs = [
   { q: "Ủy thác đầu tư là gì?", a: "Ủy thác đầu tư là hình thức bạn giao vốn cho công ty quản lý chuyên nghiệp để đầu tư sinh lời thay bạn. Mọi hoạt động đều tuân thủ pháp luật và được giám sát chặt chẽ." },
-  { q: "Mức vốn tối thiểu là bao nhiêu?", a: "Mức vốn tối thiểu để tham gia ủy thác đầu tư tại Đồng Phú Lạng Sơn là 500 triệu VNĐ cho gói Cơ bản." },
+  { q: "Mức vốn tối thiểu là bao nhiêu?", a: "packages_card" },
   { q: "Lợi nhuận kỳ vọng là bao nhiêu?", a: "Tùy thuộc vào gói đầu tư và điều kiện thị trường, lợi nhuận kỳ vọng dao động từ 12-25%/năm. Chúng tôi không cam kết lợi nhuận cố định nhưng nỗ lực tối đa để đạt mục tiêu." },
   { q: "Tôi có thể rút vốn bất cứ lúc nào không?", a: "Có, bạn có thể rút vốn theo các điều khoản trong hợp đồng. Thông thường cần thông báo trước 30 ngày làm việc." },
   { q: "Báo cáo đầu tư được gửi như thế nào?", a: "Báo cáo được gửi định kỳ qua email và có thể xem trực tiếp trên dashboard khách hàng. Tần suất báo cáo phụ thuộc vào gói dịch vụ bạn chọn." },
@@ -344,7 +344,26 @@ const ServiceDetailPage = () => {
                   </button>
                   {openFaq === i && (
                     <div className="px-5 pb-5">
-                      <p className="text-sm text-muted-foreground leading-relaxed">{a}</p>
+                      {a === "packages_card" ? (
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+                          {[
+                            { name: "Gói Tư vấn", capital: "Không yêu cầu", highlight: false },
+                            { name: "Gói Ủy thác 1", capital: "100 triệu VNĐ", highlight: false },
+                            { name: "Gói Ủy thác 2", capital: "1 tỷ VNĐ", highlight: true },
+                          ].map((pkg, idx) => (
+                            <div
+                              key={idx}
+                              className="rounded-xl border border-border bg-card p-5 shadow-sm transition-all duration-300 hover:border-gold hover:shadow-md text-center"
+                            >
+                              <h4 className="text-sm font-bold text-foreground mb-2">{pkg.name}</h4>
+                              <p className="text-lg font-semibold text-gold">{pkg.capital}</p>
+                              <p className="text-xs text-muted-foreground mt-1">Mức vốn tối thiểu</p>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="text-sm text-muted-foreground leading-relaxed">{a}</p>
+                      )}
                     </div>
                   )}
                 </motion.div>
