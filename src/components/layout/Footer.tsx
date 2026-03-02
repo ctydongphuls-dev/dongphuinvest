@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Clock, Facebook, Linkedin, Youtube, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
@@ -26,13 +26,6 @@ const Footer = () => {
             <p className="text-sm text-primary-foreground/70 leading-relaxed mb-4">
               Công ty Cổ phần Đầu tư và Phát triển Đồng Phú Lạng Sơn - Đồng hành cùng bạn trên con đường đầu tư thịnh vượng.
             </p>
-            <div className="flex gap-3">
-              {[Facebook, Linkedin, Youtube].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-full bg-primary-foreground/10 hover:bg-gold/20 flex items-center justify-center transition-colors">
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Links */}
