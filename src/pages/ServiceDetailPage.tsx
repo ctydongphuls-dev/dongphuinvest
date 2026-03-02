@@ -206,7 +206,7 @@ const ServiceDetailPage = () => {
                   transition={{ delay: i * 0.1 }}
                   className="relative p-5 rounded-xl border border-border bg-card text-center"
                 >
-                  <span className="text-3xl font-bold text-gold/20">{num}</span>
+                  <span className="text-4xl font-bold text-gold drop-shadow-sm">{num}</span>
                   <h3 className="text-sm font-semibold text-foreground mt-2 mb-1">{title}</h3>
                   <p className="text-xs text-muted-foreground">{desc}</p>
                   {i < steps.length - 1 && (
