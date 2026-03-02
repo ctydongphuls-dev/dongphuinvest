@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import {
   Shield, TrendingUp, FileText, Users, CheckCircle2, Phone,
   ChevronDown, ChevronUp, Loader2, Send, ArrowRight, Crown,
-  BarChart3, ShieldCheck, Star, AlertTriangle, Newspaper, Radio
+  BarChart3, ShieldCheck, Star, AlertTriangle, Newspaper, Radio, Info
 } from "lucide-react";
 
 const steps = [
@@ -84,7 +84,7 @@ const faqs = [
   { q: "Mức vốn tối thiểu là bao nhiêu?", a: "packages_card" },
   { q: "Lợi nhuận kỳ vọng là bao nhiêu?", a: "Tùy thuộc vào gói đầu tư và điều kiện thị trường, lợi nhuận kỳ vọng dao động từ 12-25%/năm. Chúng tôi không cam kết lợi nhuận cố định nhưng nỗ lực tối đa để đạt mục tiêu." },
   { q: "Tôi có thể rút vốn bất cứ lúc nào không?", a: "Có, bạn có thể rút vốn theo các điều khoản trong hợp đồng. Thông thường cần thông báo trước 30 ngày làm việc." },
-  { q: "Báo cáo đầu tư được gửi như thế nào?", a: "Báo cáo được gửi định kỳ qua email và có thể xem trực tiếp trên dashboard khách hàng. Tần suất báo cáo phụ thuộc vào gói dịch vụ bạn chọn." },
+  { q: "Báo cáo đầu tư được gửi như thế nào?", a: "report_callout" },
 ];
 
 const formSchema = z.object({
@@ -360,6 +360,13 @@ const ServiceDetailPage = () => {
                               <p className="text-xs text-muted-foreground mt-1">Mức vốn tối thiểu</p>
                             </div>
                           ))}
+                        </div>
+                      ) : a === "report_callout" ? (
+                        <div className="flex items-start gap-3 rounded-lg border-l-4 border-primary bg-primary/5 p-4 mt-2">
+                          <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                          <p className="text-sm text-foreground leading-relaxed">
+                            Báo cáo định kỳ được gửi qua email, zalo hoặc các phương tiện khác. Tần suất báo cáo phụ thuộc vào gói dịch vụ bạn chọn.
+                          </p>
                         </div>
                       ) : (
                         <p className="text-sm text-muted-foreground leading-relaxed">{a}</p>
