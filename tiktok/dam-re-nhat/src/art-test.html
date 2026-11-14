@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+  body { margin: 0; background: #14141A; color: #fff; font-family: 'Be Vietnam Pro'; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 20px; padding: 40px; }
+  .cell { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 14px; min-height: 380px; }
+  .cell b { font: 800 22px 'Be Vietnam Pro'; letter-spacing: 1px; opacity: .7 }
+  .row { display: flex; gap: 30px; padding: 20px 40px; align-items: center; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="grid" id="g"></div>
+<div class="row" id="r"></div>
+<script src="art.js"></script>
+<script>
+  const big = { egg: 230, tray: 300, whey: 250, tofu: 300, chicken: 300, peanut: 300, soy: 290, cloth: 290 };
+  g.innerHTML = Object.entries(big).map(([id, w]) => `<div class="cell">${ART.svg(id, w)}<b>${id}</b></div>`).join('');
+  const small = { pot: 150, claypot: 150, pan: 170, milk: 120, cross: 120, check: 120, warn: 130, crown: 150, bookmark: 100, bubble: 130, dumbbell: 200, coin: 90, bean: 60, bean2: 60 };
+  r.innerHTML = Object.entries(small).map(([id, w]) => `<div class="cell" style="min-height:0">${ART.svg(id, w)}<b>${id}</b></div>`).join('');
+</script>
+</body>
+</html>

@@ -1,0 +1,4527 @@
+{
+ "words": [
+  {
+   "i": 0,
+   "word": "Trứng",
+   "start": 0.315,
+   "end": 0.625,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 0.25
+  },
+  {
+   "i": 1,
+   "word": "không",
+   "start": 0.625,
+   "end": 0.835,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 0.42
+  },
+  {
+   "i": 2,
+   "word": "phải",
+   "start": 0.835,
+   "end": 1.025,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 0.7
+  },
+  {
+   "i": 3,
+   "word": "nguồn",
+   "start": 1.025,
+   "end": 1.195,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.06,
+   "d2": 0.02,
+   "whisper": 0.88
+  },
+  {
+   "i": 4,
+   "word": "đạm",
+   "start": 1.195,
+   "end": 1.445,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.08,
+   "d2": 0.02,
+   "whisper": 1.15
+  },
+  {
+   "i": 5,
+   "word": "rẻ",
+   "start": 1.445,
+   "end": 1.655,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 1.35
+  },
+  {
+   "i": 6,
+   "word": "nhất.",
+   "start": 1.655,
+   "end": 1.785,
+   "sent": 0,
+   "ipu": 0,
+   "spread": 0.2,
+   "d2": 0.0,
+   "whisper": 1.56
+  },
+  {
+   "i": 7,
+   "word": "Whey",
+   "start": 2.2,
+   "end": 2.665,
+   "sent": 1,
+   "ipu": 1,
+   "spread": 0.04,
+   "d2": 0.06,
+   "whisper": 2.2
+  },
+  {
+   "i": 8,
+   "word": "càng",
+   "start": 2.665,
+   "end": 2.93,
+   "sent": 1,
+   "ipu": 1,
+   "spread": 0.02,
+   "d2": 0.06,
+   "whisper": 2.46
+  },
+  {
+   "i": 9,
+   "word": "không.",
+   "start": 2.93,
+   "end": 3.19,
+   "sent": 1,
+   "ipu": 1,
+   "spread": 0.22,
+   "d2": 0.0,
+   "whisper": 2.78
+  },
+  {
+   "i": 10,
+   "word": "Món",
+   "start": 3.545,
+   "end": 3.755,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 3.545
+  },
+  {
+   "i": 11,
+   "word": "đứng",
+   "start": 3.755,
+   "end": 3.955,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 3.675
+  },
+  {
+   "i": 12,
+   "word": "top",
+   "start": 3.955,
+   "end": 4.16,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 3.825
+  },
+  {
+   "i": 13,
+   "word": "1",
+   "start": 4.16,
+   "end": 4.54,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.16,
+   "d2": 0.18,
+   "whisper": 4.04
+  },
+  {
+   "i": 14,
+   "word": "giá",
+   "start": 4.54,
+   "end": 4.89,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 4.36
+  },
+  {
+   "i": 15,
+   "word": "chưa",
+   "start": 4.89,
+   "end": 5.07,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 4.695
+  },
+  {
+   "i": 16,
+   "word": "tới",
+   "start": 5.07,
+   "end": 5.265,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 4.96
+  },
+  {
+   "i": 17,
+   "word": "150",
+   "start": 5.265,
+   "end": 6.07,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.3,
+   "d2": 0.14,
+   "whisper": 5.155
+  },
+  {
+   "i": 18,
+   "word": "đồng",
+   "start": 6.07,
+   "end": 6.33,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 5.815
+  },
+  {
+   "i": 19,
+   "word": "1",
+   "start": 6.33,
+   "end": 6.47,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 6.225
+  },
+  {
+   "i": 20,
+   "word": "gam",
+   "start": 6.47,
+   "end": 6.69,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 6.415
+  },
+  {
+   "i": 21,
+   "word": "đạm,",
+   "start": 6.69,
+   "end": 6.91,
+   "sent": 2,
+   "ipu": 2,
+   "spread": 0.24,
+   "d2": 0.0,
+   "whisper": 6.555
+  },
+  {
+   "i": 22,
+   "word": "và",
+   "start": 7.365,
+   "end": 7.555,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.1,
+   "d2": 0.04,
+   "whisper": 7.335
+  },
+  {
+   "i": 23,
+   "word": "hầu",
+   "start": 7.555,
+   "end": 7.785,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.02,
+   "d2": 0.06,
+   "whisper": 7.445
+  },
+  {
+   "i": 24,
+   "word": "hết",
+   "start": 7.785,
+   "end": 8.075,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 7.695
+  },
+  {
+   "i": 25,
+   "word": "dân",
+   "start": 8.075,
+   "end": 8.315,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.0,
+   "d2": 0.02,
+   "whisper": 7.895
+  },
+  {
+   "i": 26,
+   "word": "gym",
+   "start": 8.315,
+   "end": 8.69,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 8.195
+  },
+  {
+   "i": 27,
+   "word": "không",
+   "start": 8.69,
+   "end": 8.81,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 8.44
+  },
+  {
+   "i": 28,
+   "word": "bao",
+   "start": 8.81,
+   "end": 9.005,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 8.725
+  },
+  {
+   "i": 29,
+   "word": "giờ",
+   "start": 9.005,
+   "end": 9.14,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 8.9
+  },
+  {
+   "i": 30,
+   "word": "ăn",
+   "start": 9.14,
+   "end": 9.325,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.04,
+   "d2": 0.06,
+   "whisper": 9.055
+  },
+  {
+   "i": 31,
+   "word": "nó.",
+   "start": 9.325,
+   "end": 9.57,
+   "sent": 3,
+   "ipu": 3,
+   "spread": 0.22,
+   "d2": 0.0,
+   "whisper": 9.195
+  },
+  {
+   "i": 32,
+   "word": "Tao",
+   "start": 9.685,
+   "end": 10.0,
+   "sent": 4,
+   "ipu": 4,
+   "spread": 0.12,
+   "d2": 0.0,
+   "whisper": 9.675
+  },
+  {
+   "i": 33,
+   "word": "đã",
+   "start": 10.29,
+   "end": 10.55,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 10.255
+  },
+  {
+   "i": 34,
+   "word": "tính",
+   "start": 10.55,
+   "end": 10.73,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.02,
+   "d2": 0.04,
+   "whisper": 10.388
+  },
+  {
+   "i": 35,
+   "word": "giá",
+   "start": 10.73,
+   "end": 10.945,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 10.668
+  },
+  {
+   "i": 36,
+   "word": "từng",
+   "start": 10.945,
+   "end": 11.105,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 10.828
+  },
+  {
+   "i": 37,
+   "word": "gam",
+   "start": 11.105,
+   "end": 11.33,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 11.078
+  },
+  {
+   "i": 38,
+   "word": "đạm",
+   "start": 11.33,
+   "end": 11.61,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 11.24
+  },
+  {
+   "i": 39,
+   "word": "của",
+   "start": 11.61,
+   "end": 11.785,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 11.508
+  },
+  {
+   "i": 40,
+   "word": "6",
+   "start": 11.785,
+   "end": 11.985,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 11.66
+  },
+  {
+   "i": 41,
+   "word": "món.",
+   "start": 11.985,
+   "end": 12.265,
+   "sent": 4,
+   "ipu": 5,
+   "spread": 0.22,
+   "d2": 0.0,
+   "whisper": 11.86
+  },
+  {
+   "i": 42,
+   "word": "Xem",
+   "start": 12.725,
+   "end": 12.92,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.02,
+   "d2": 0.04,
+   "whisper": 12.395
+  },
+  {
+   "i": 43,
+   "word": "tới",
+   "start": 12.92,
+   "end": 13.145,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 12.81
+  },
+  {
+   "i": 44,
+   "word": "cuối,",
+   "start": 13.145,
+   "end": 13.425,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.12,
+   "d2": 0.12,
+   "whisper": 12.94
+  },
+  {
+   "i": 45,
+   "word": "top",
+   "start": 13.425,
+   "end": 13.6,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 13.4
+  },
+  {
+   "i": 46,
+   "word": "1",
+   "start": 13.6,
+   "end": 13.965,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 13.53
+  },
+  {
+   "i": 47,
+   "word": "sẽ",
+   "start": 13.965,
+   "end": 14.105,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 13.78
+  },
+  {
+   "i": 48,
+   "word": "làm",
+   "start": 14.105,
+   "end": 14.275,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 14.02
+  },
+  {
+   "i": 49,
+   "word": "mày",
+   "start": 14.275,
+   "end": 14.485,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 14.16
+  },
+  {
+   "i": 50,
+   "word": "tức.",
+   "start": 14.485,
+   "end": 14.6,
+   "sent": 5,
+   "ipu": 6,
+   "spread": 0.04,
+   "d2": 0.0,
+   "whisper": 14.32
+  },
+  {
+   "i": 51,
+   "word": "Hạng",
+   "start": 15.21,
+   "end": 15.615,
+   "sent": 6,
+   "ipu": 7,
+   "spread": 0.06,
+   "d2": 0.2,
+   "whisper": 15.155
+  },
+  {
+   "i": 52,
+   "word": "6,",
+   "start": 15.615,
+   "end": 15.84,
+   "sent": 6,
+   "ipu": 7,
+   "spread": 0.16,
+   "d2": 0.1,
+   "whisper": 15.38
+  },
+  {
+   "i": 53,
+   "word": "whey.",
+   "start": 15.84,
+   "end": 16.06,
+   "sent": 6,
+   "ipu": 7,
+   "spread": 0.2,
+   "d2": 0.0,
+   "whisper": 15.865
+  },
+  {
+   "i": 54,
+   "word": "Một",
+   "start": 16.35,
+   "end": 16.52,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 16.33
+  },
+  {
+   "i": 55,
+   "word": "hũ",
+   "start": 16.52,
+   "end": 16.755,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.06,
+   "d2": 0.02,
+   "whisper": 16.435
+  },
+  {
+   "i": 56,
+   "word": "gần",
+   "start": 16.755,
+   "end": 17.025,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 16.645
+  },
+  {
+   "i": 57,
+   "word": "2",
+   "start": 17.025,
+   "end": 17.29,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.12,
+   "d2": 0.14,
+   "whisper": 16.885
+  },
+  {
+   "i": 58,
+   "word": "triệu,",
+   "start": 17.29,
+   "end": 17.63,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.18,
+   "d2": 0.12,
+   "whisper": 17.12
+  },
+  {
+   "i": 59,
+   "word": "mỗi",
+   "start": 17.63,
+   "end": 17.81,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.1,
+   "d2": 0.06,
+   "whisper": 17.595
+  },
+  {
+   "i": 60,
+   "word": "gam",
+   "start": 17.81,
+   "end": 18.025,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 17.745
+  },
+  {
+   "i": 61,
+   "word": "đạm",
+   "start": 18.025,
+   "end": 18.315,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.1,
+   "d2": 0.06,
+   "whisper": 17.885
+  },
+  {
+   "i": 62,
+   "word": "hơn",
+   "start": 18.315,
+   "end": 18.5,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 18.225
+  },
+  {
+   "i": 63,
+   "word": "1.000",
+   "start": 18.5,
+   "end": 18.87,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 18.365
+  },
+  {
+   "i": 64,
+   "word": "đồng.",
+   "start": 18.87,
+   "end": 19.135,
+   "sent": 7,
+   "ipu": 8,
+   "spread": 0.24,
+   "d2": 0.0,
+   "whisper": 18.765
+  },
+  {
+   "i": 65,
+   "word": "Tiện",
+   "start": 19.555,
+   "end": 19.755,
+   "sent": 8,
+   "ipu": 9,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 19.53
+  },
+  {
+   "i": 66,
+   "word": "thật,",
+   "start": 19.755,
+   "end": 19.94,
+   "sent": 8,
+   "ipu": 9,
+   "spread": 0.14,
+   "d2": 0.0,
+   "whisper": 19.67
+  },
+  {
+   "i": 67,
+   "word": "nhưng",
+   "start": 20.23,
+   "end": 20.555,
+   "sent": 8,
+   "ipu": 10,
+   "spread": 0.12,
+   "d2": 0.06,
+   "whisper": 20.125
+  },
+  {
+   "i": 68,
+   "word": "đắt",
+   "start": 20.555,
+   "end": 20.71,
+   "sent": 8,
+   "ipu": 10,
+   "spread": 0.02,
+   "d2": 0.08,
+   "whisper": 20.302
+  },
+  {
+   "i": 69,
+   "word": "nhất",
+   "start": 20.71,
+   "end": 20.975,
+   "sent": 8,
+   "ipu": 10,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 20.68
+  },
+  {
+   "i": 70,
+   "word": "bảng.",
+   "start": 20.975,
+   "end": 21.23,
+   "sent": 8,
+   "ipu": 10,
+   "spread": 0.4,
+   "d2": 0.0,
+   "whisper": 20.822
+  },
+  {
+   "i": 71,
+   "word": "Hạng",
+   "start": 21.565,
+   "end": 21.805,
+   "sent": 9,
+   "ipu": 11,
+   "spread": 0.07,
+   "d2": 0.08,
+   "whisper": 21.515
+  },
+  {
+   "i": 72,
+   "word": "5",
+   "start": 21.805,
+   "end": 21.975,
+   "sent": 9,
+   "ipu": 11,
+   "spread": 0.08,
+   "d2": 0.04,
+   "whisper": 21.733
+  },
+  {
+   "i": 73,
+   "word": "và",
+   "start": 21.975,
+   "end": 22.16,
+   "sent": 9,
+   "ipu": 11,
+   "spread": 0.09,
+   "d2": 0.08,
+   "whisper": 21.933
+  },
+  {
+   "i": 74,
+   "word": "đây",
+   "start": 22.16,
+   "end": 22.335,
+   "sent": 9,
+   "ipu": 11,
+   "spread": 0.11,
+   "d2": 0.08,
+   "whisper": 22.213
+  },
+  {
+   "i": 75,
+   "word": "là",
+   "start": 22.335,
+   "end": 22.725,
+   "sent": 9,
+   "ipu": 11,
+   "spread": 0.06,
+   "d2": 0.0,
+   "whisper": 22.393
+  },
+  {
+   "i": 76,
+   "word": "cú",
+   "start": 22.865,
+   "end": 23.125,
+   "sent": 9,
+   "ipu": 12,
+   "spread": 0.07,
+   "d2": 0.06,
+   "whisper": 22.86
+  },
+  {
+   "i": 77,
+   "word": "sốc,",
+   "start": 23.125,
+   "end": 23.22,
+   "sent": 9,
+   "ipu": 12,
+   "spread": 0.15,
+   "d2": 0.0,
+   "whisper": 22.983
+  },
+  {
+   "i": 78,
+   "word": "trứng.",
+   "start": 23.66,
+   "end": 23.93,
+   "sent": 9,
+   "ipu": 13,
+   "spread": 0.16,
+   "d2": 0.0,
+   "whisper": 23.6
+  },
+  {
+   "i": 79,
+   "word": "3.000",
+   "start": 24.26,
+   "end": 24.66,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.03,
+   "d2": 0.02,
+   "whisper": 24.225
+  },
+  {
+   "i": 80,
+   "word": "đồng",
+   "start": 24.66,
+   "end": 24.855,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.03,
+   "d2": 0.02,
+   "whisper": 24.568
+  },
+  {
+   "i": 81,
+   "word": "1",
+   "start": 24.855,
+   "end": 25.065,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.12,
+   "d2": 0.08,
+   "whisper": 24.767
+  },
+  {
+   "i": 82,
+   "word": "quả,",
+   "start": 25.065,
+   "end": 25.415,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.16,
+   "d2": 0.18,
+   "whisper": 24.898
+  },
+  {
+   "i": 83,
+   "word": "được",
+   "start": 25.415,
+   "end": 25.655,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.07,
+   "d2": 0.08,
+   "whisper": 25.41
+  },
+  {
+   "i": 84,
+   "word": "6",
+   "start": 25.655,
+   "end": 25.805,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 25.5
+  },
+  {
+   "i": 85,
+   "word": "gam",
+   "start": 25.805,
+   "end": 26.025,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 25.75
+  },
+  {
+   "i": 86,
+   "word": "rưỡi",
+   "start": 26.025,
+   "end": 26.175,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.03,
+   "d2": 0.04,
+   "whisper": 25.898
+  },
+  {
+   "i": 87,
+   "word": "đạm.",
+   "start": 26.175,
+   "end": 26.37,
+   "sent": 10,
+   "ipu": 14,
+   "spread": 0.14,
+   "d2": 0.0,
+   "whisper": 26.137
+  },
+  {
+   "i": 88,
+   "word": "Tính",
+   "start": 26.475,
+   "end": 26.715,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 26.475
+  },
+  {
+   "i": 89,
+   "word": "ra",
+   "start": 26.715,
+   "end": 27.03,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.16,
+   "d2": 0.06,
+   "whisper": 26.582
+  },
+  {
+   "i": 90,
+   "word": "460",
+   "start": 27.03,
+   "end": 27.855,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.11,
+   "d2": 0.14,
+   "whisper": 26.812
+  },
+  {
+   "i": 91,
+   "word": "đồng",
+   "start": 27.855,
+   "end": 28.05,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.05,
+   "d2": 0.04,
+   "whisper": 27.72
+  },
+  {
+   "i": 92,
+   "word": "1",
+   "start": 28.05,
+   "end": 28.18,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.12,
+   "d2": 0.1,
+   "whisper": 27.942
+  },
+  {
+   "i": 93,
+   "word": "gam.",
+   "start": 28.18,
+   "end": 28.44,
+   "sent": 11,
+   "ipu": 15,
+   "spread": 0.26,
+   "d2": 0.0,
+   "whisper": 28.11
+  },
+  {
+   "i": 94,
+   "word": "Áp",
+   "start": 28.625,
+   "end": 28.715,
+   "sent": 11,
+   "ipu": 16,
+   "spread": 0.09,
+   "d2": 0.0,
+   "whisper": 28.6
+  },
+  {
+   "i": 95,
+   "word": "chót.",
+   "start": 28.865,
+   "end": 29.115,
+   "sent": 11,
+   "ipu": 17,
+   "spread": 0.36,
+   "d2": 0.0,
+   "whisper": 28.815
+  },
+  {
+   "i": 96,
+   "word": "Hạng",
+   "start": 29.665,
+   "end": 29.89,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 29.33
+  },
+  {
+   "i": 97,
+   "word": "4,",
+   "start": 29.89,
+   "end": 30.21,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.16,
+   "d2": 0.14,
+   "whisper": 29.82
+  },
+  {
+   "i": 98,
+   "word": "đậu",
+   "start": 30.21,
+   "end": 30.515,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.12,
+   "d2": 0.12,
+   "whisper": 30.2
+  },
+  {
+   "i": 99,
+   "word": "phụ,",
+   "start": 30.515,
+   "end": 30.975,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.16,
+   "d2": 0.08,
+   "whisper": 30.4
+  },
+  {
+   "i": 100,
+   "word": "khoảng",
+   "start": 30.975,
+   "end": 31.215,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.04,
+   "d2": 0.08,
+   "whisper": 30.742
+  },
+  {
+   "i": 101,
+   "word": "370",
+   "start": 31.215,
+   "end": 31.925,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.18,
+   "d2": 0.18,
+   "whisper": 31.12
+  },
+  {
+   "i": 102,
+   "word": "đồng.",
+   "start": 31.925,
+   "end": 32.5,
+   "sent": 12,
+   "ipu": 18,
+   "spread": 0.22,
+   "d2": 0.22,
+   "whisper": 31.8
+  },
+  {
+   "i": 103,
+   "word": "Hạng",
+   "start": 32.5,
+   "end": 32.695,
+   "sent": 13,
+   "ipu": 18,
+   "spread": 0.02,
+   "d2": 0.1,
+   "whisper": 32.322
+  },
+  {
+   "i": 104,
+   "word": "3,",
+   "start": 32.695,
+   "end": 32.92,
+   "sent": 13,
+   "ipu": 18,
+   "spread": 0.1,
+   "d2": 0.14,
+   "whisper": 32.64
+  },
+  {
+   "i": 105,
+   "word": "ức",
+   "start": 32.92,
+   "end": 33.12,
+   "sent": 13,
+   "ipu": 18,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 32.92
+  },
+  {
+   "i": 106,
+   "word": "gà,",
+   "start": 33.12,
+   "end": 33.48,
+   "sent": 13,
+   "ipu": 18,
+   "spread": 0.18,
+   "d2": 0.0,
+   "whisper": 33.002
+  },
+  {
+   "i": 107,
+   "word": "75.000",
+   "start": 33.66,
+   "end": 34.345,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.04,
+   "d2": 0.0,
+   "whisper": 33.61
+  },
+  {
+   "i": 108,
+   "word": "đồng",
+   "start": 34.345,
+   "end": 34.54,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 34.265
+  },
+  {
+   "i": 109,
+   "word": "1",
+   "start": 34.54,
+   "end": 34.735,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.14,
+   "d2": 0.14,
+   "whisper": 34.445
+  },
+  {
+   "i": 110,
+   "word": "cân,",
+   "start": 34.735,
+   "end": 35.325,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.36,
+   "d2": 0.16,
+   "whisper": 34.64
+  },
+  {
+   "i": 111,
+   "word": "330",
+   "start": 35.325,
+   "end": 35.99,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.12,
+   "d2": 0.02,
+   "whisper": 35.065
+  },
+  {
+   "i": 112,
+   "word": "đồng",
+   "start": 35.99,
+   "end": 36.195,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.02,
+   "d2": 0.06,
+   "whisper": 35.575
+  },
+  {
+   "i": 113,
+   "word": "1",
+   "start": 36.195,
+   "end": 36.355,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.16,
+   "d2": 0.1,
+   "whisper": 36.095
+  },
+  {
+   "i": 114,
+   "word": "gam.",
+   "start": 36.355,
+   "end": 36.915,
+   "sent": 13,
+   "ipu": 19,
+   "spread": 0.42,
+   "d2": 0.0,
+   "whisper": 36.265
+  },
+  {
+   "i": 115,
+   "word": "Đúng,",
+   "start": 37.06,
+   "end": 37.45,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.16,
+   "d2": 0.2,
+   "whisper": 37.015
+  },
+  {
+   "i": 116,
+   "word": "ức",
+   "start": 37.45,
+   "end": 37.65,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 37.38
+  },
+  {
+   "i": 117,
+   "word": "gà",
+   "start": 37.65,
+   "end": 37.945,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.02,
+   "d2": 0.04,
+   "whisper": 37.545
+  },
+  {
+   "i": 118,
+   "word": "rẻ",
+   "start": 37.945,
+   "end": 38.145,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 37.805
+  },
+  {
+   "i": 119,
+   "word": "hơn",
+   "start": 38.145,
+   "end": 38.36,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 38.045
+  },
+  {
+   "i": 120,
+   "word": "trứng.",
+   "start": 38.36,
+   "end": 38.635,
+   "sent": 14,
+   "ipu": 20,
+   "spread": 0.18,
+   "d2": 0.0,
+   "whisper": 38.205
+  },
+  {
+   "i": 121,
+   "word": "Hạng",
+   "start": 39.28,
+   "end": 39.535,
+   "sent": 15,
+   "ipu": 21,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 39.22
+  },
+  {
+   "i": 122,
+   "word": "2,",
+   "start": 39.535,
+   "end": 39.835,
+   "sent": 15,
+   "ipu": 21,
+   "spread": 0.26,
+   "d2": 0.2,
+   "whisper": 39.49
+  },
+  {
+   "i": 123,
+   "word": "lạc.",
+   "start": 39.835,
+   "end": 40.04,
+   "sent": 15,
+   "ipu": 21,
+   "spread": 0.14,
+   "d2": 0.0,
+   "whisper": 39.87
+  },
+  {
+   "i": 124,
+   "word": "Chỉ",
+   "start": 40.455,
+   "end": 40.64,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.04,
+   "d2": 0.06,
+   "whisper": 40.36
+  },
+  {
+   "i": 125,
+   "word": "khoảng",
+   "start": 40.64,
+   "end": 40.905,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.02,
+   "d2": 0.06,
+   "whisper": 40.52
+  },
+  {
+   "i": 126,
+   "word": "240",
+   "start": 40.905,
+   "end": 41.59,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.24,
+   "d2": 0.26,
+   "whisper": 40.78
+  },
+  {
+   "i": 127,
+   "word": "đồng",
+   "start": 41.59,
+   "end": 41.795,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.04,
+   "d2": 0.02,
+   "whisper": 41.37
+  },
+  {
+   "i": 128,
+   "word": "1",
+   "start": 41.795,
+   "end": 41.98,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.12,
+   "d2": 0.1,
+   "whisper": 41.7
+  },
+  {
+   "i": 129,
+   "word": "gam.",
+   "start": 41.98,
+   "end": 42.5,
+   "sent": 16,
+   "ipu": 22,
+   "spread": 0.2,
+   "d2": 0.0,
+   "whisper": 41.87
+  },
+  {
+   "i": 130,
+   "word": "Nhưng",
+   "start": 42.63,
+   "end": 42.85,
+   "sent": 17,
+   "ipu": 23,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 42.63
+  },
+  {
+   "i": 131,
+   "word": "cẩn",
+   "start": 42.85,
+   "end": 43.09,
+   "sent": 17,
+   "ipu": 23,
+   "spread": 0.1,
+   "d2": 0.0,
+   "whisper": 42.735
+  },
+  {
+   "i": 132,
+   "word": "thận,",
+   "start": 43.09,
+   "end": 43.29,
+   "sent": 17,
+   "ipu": 23,
+   "spread": 0.36,
+   "d2": 0.0,
+   "whisper": 42.985
+  },
+  {
+   "i": 133,
+   "word": "100",
+   "start": 43.67,
+   "end": 44.095,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.12,
+   "d2": 0.1,
+   "whisper": 43.66
+  },
+  {
+   "i": 134,
+   "word": "gam",
+   "start": 44.095,
+   "end": 44.275,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.04,
+   "d2": 0.02,
+   "whisper": 43.91
+  },
+  {
+   "i": 135,
+   "word": "lạc",
+   "start": 44.275,
+   "end": 44.56,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 44.16
+  },
+  {
+   "i": 136,
+   "word": "gần",
+   "start": 44.56,
+   "end": 44.83,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 44.53
+  },
+  {
+   "i": 137,
+   "word": "570",
+   "start": 44.83,
+   "end": 45.665,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.2,
+   "d2": 0.2,
+   "whisper": 44.72
+  },
+  {
+   "i": 138,
+   "word": "calo,",
+   "start": 45.665,
+   "end": 46.39,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.32,
+   "d2": 0.2,
+   "whisper": 45.51
+  },
+  {
+   "i": 139,
+   "word": "ăn",
+   "start": 46.39,
+   "end": 46.675,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.12,
+   "d2": 0.12,
+   "whisper": 46.21
+  },
+  {
+   "i": 140,
+   "word": "nhiều",
+   "start": 46.675,
+   "end": 46.9,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 46.55
+  },
+  {
+   "i": 141,
+   "word": "là",
+   "start": 46.9,
+   "end": 47.07,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 46.77
+  },
+  {
+   "i": 142,
+   "word": "béo",
+   "start": 47.07,
+   "end": 47.505,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 46.99
+  },
+  {
+   "i": 143,
+   "word": "chứ",
+   "start": 47.505,
+   "end": 47.64,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 47.33
+  },
+  {
+   "i": 144,
+   "word": "không",
+   "start": 47.64,
+   "end": 47.795,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 47.55
+  },
+  {
+   "i": 145,
+   "word": "phải",
+   "start": 47.795,
+   "end": 47.965,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 47.71
+  },
+  {
+   "i": 146,
+   "word": "to.",
+   "start": 47.965,
+   "end": 48.24,
+   "sent": 17,
+   "ipu": 24,
+   "spread": 0.14,
+   "d2": 0.0,
+   "whisper": 47.87
+  },
+  {
+   "i": 147,
+   "word": "Còn",
+   "start": 48.725,
+   "end": 48.985,
+   "sent": 18,
+   "ipu": 25,
+   "spread": 0.06,
+   "d2": 0.1,
+   "whisper": 48.7
+  },
+  {
+   "i": 148,
+   "word": "top",
+   "start": 48.985,
+   "end": 49.205,
+   "sent": 18,
+   "ipu": 25,
+   "spread": 0.08,
+   "d2": 0.18,
+   "whisper": 48.87
+  },
+  {
+   "i": 149,
+   "word": "1,",
+   "start": 49.205,
+   "end": 49.425,
+   "sent": 18,
+   "ipu": 25,
+   "spread": 0.22,
+   "d2": 0.0,
+   "whisper": 49.09
+  },
+  {
+   "i": 150,
+   "word": "đậu",
+   "start": 49.63,
+   "end": 49.885,
+   "sent": 18,
+   "ipu": 26,
+   "spread": 0.12,
+   "d2": 0.12,
+   "whisper": 49.565
+  },
+  {
+   "i": 151,
+   "word": "nành",
+   "start": 49.885,
+   "end": 50.17,
+   "sent": 18,
+   "ipu": 26,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 49.83
+  },
+  {
+   "i": 152,
+   "word": "khô.",
+   "start": 50.17,
+   "end": 50.445,
+   "sent": 18,
+   "ipu": 26,
+   "spread": 0.16,
+   "d2": 0.0,
+   "whisper": 49.975
+  },
+  {
+   "i": 153,
+   "word": "35",
+   "start": 50.705,
+   "end": 51.24,
+   "sent": 19,
+   "ipu": 27,
+   "spread": 0.24,
+   "d2": 0.06,
+   "whisper": 50.665
+  },
+  {
+   "i": 154,
+   "word": "1",
+   "start": 51.24,
+   "end": 51.665,
+   "sent": 19,
+   "ipu": 27,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 51.065
+  },
+  {
+   "i": 155,
+   "word": "cân,",
+   "start": 51.665,
+   "end": 51.955,
+   "sent": 19,
+   "ipu": 27,
+   "spread": 0.12,
+   "d2": 0.16,
+   "whisper": 51.47
+  },
+  {
+   "i": 156,
+   "word": "100",
+   "start": 51.955,
+   "end": 52.385,
+   "sent": 19,
+   "ipu": 27,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 51.91
+  },
+  {
+   "i": 157,
+   "word": "gam",
+   "start": 52.385,
+   "end": 52.68,
+   "sent": 19,
+   "ipu": 27,
+   "spread": 0.06,
+   "d2": 0.0,
+   "whisper": 52.17
+  },
+  {
+   "i": 158,
+   "word": "có",
+   "start": 52.83,
+   "end": 52.98,
+   "sent": 19,
+   "ipu": 28,
+   "spread": 0.14,
+   "d2": 0.06,
+   "whisper": 52.79
+  },
+  {
+   "i": 159,
+   "word": "36",
+   "start": 52.98,
+   "end": 53.52,
+   "sent": 19,
+   "ipu": 28,
+   "spread": 0.12,
+   "d2": 0.14,
+   "whisper": 52.87
+  },
+  {
+   "i": 160,
+   "word": "gam",
+   "start": 53.52,
+   "end": 53.725,
+   "sent": 19,
+   "ipu": 28,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 53.31
+  },
+  {
+   "i": 161,
+   "word": "đạm.",
+   "start": 53.725,
+   "end": 53.925,
+   "sent": 19,
+   "ipu": 28,
+   "spread": 0.22,
+   "d2": 0.0,
+   "whisper": 53.605
+  },
+  {
+   "i": 162,
+   "word": "Mỗi",
+   "start": 54.335,
+   "end": 54.55,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 54.335
+  },
+  {
+   "i": 163,
+   "word": "gam",
+   "start": 54.55,
+   "end": 54.96,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.12,
+   "d2": 0.08,
+   "whisper": 54.49
+  },
+  {
+   "i": 164,
+   "word": "chỉ",
+   "start": 54.96,
+   "end": 55.175,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.1,
+   "d2": 0.1,
+   "whisper": 54.685
+  },
+  {
+   "i": 165,
+   "word": "khoảng",
+   "start": 55.175,
+   "end": 55.375,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 55.005
+  },
+  {
+   "i": 166,
+   "word": "100",
+   "start": 55.375,
+   "end": 55.75,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.16,
+   "d2": 0.1,
+   "whisper": 55.285
+  },
+  {
+   "i": 167,
+   "word": "đồng,",
+   "start": 55.75,
+   "end": 56.185,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.22,
+   "d2": 0.24,
+   "whisper": 55.565
+  },
+  {
+   "i": 168,
+   "word": "rẻ",
+   "start": 56.185,
+   "end": 56.38,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 56.15
+  },
+  {
+   "i": 169,
+   "word": "hơn",
+   "start": 56.38,
+   "end": 56.615,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 56.305
+  },
+  {
+   "i": 170,
+   "word": "trứng",
+   "start": 56.615,
+   "end": 56.805,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 56.49
+  },
+  {
+   "i": 171,
+   "word": "4",
+   "start": 56.805,
+   "end": 57.03,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.16,
+   "d2": 0.1,
+   "whisper": 56.685
+  },
+  {
+   "i": 172,
+   "word": "lần,",
+   "start": 57.03,
+   "end": 57.25,
+   "sent": 20,
+   "ipu": 29,
+   "spread": 0.3,
+   "d2": 0.0,
+   "whisper": 56.91
+  },
+  {
+   "i": 173,
+   "word": "rẻ",
+   "start": 57.46,
+   "end": 57.715,
+   "sent": 20,
+   "ipu": 30,
+   "spread": 0.36,
+   "d2": 0.04,
+   "whisper": 57.43
+  },
+  {
+   "i": 174,
+   "word": "hơn",
+   "start": 57.715,
+   "end": 57.92,
+   "sent": 20,
+   "ipu": 30,
+   "spread": 0.54,
+   "d2": 0.08,
+   "whisper": 57.64
+  },
+  {
+   "i": 175,
+   "word": "whey",
+   "start": 57.92,
+   "end": 58.15,
+   "sent": 20,
+   "ipu": 30,
+   "spread": 0.74,
+   "d2": 0.06,
+   "whisper": 57.8
+  },
+  {
+   "i": 176,
+   "word": "10",
+   "start": 58.15,
+   "end": 58.335,
+   "sent": 20,
+   "ipu": 30,
+   "spread": 0.88,
+   "d2": 0.1,
+   "whisper": 58.05
+  },
+  {
+   "i": 177,
+   "word": "lần.",
+   "start": 58.335,
+   "end": 58.735,
+   "sent": 20,
+   "ipu": 30,
+   "spread": 1.36,
+   "d2": 0.12,
+   "whisper": 58.13
+  },
+  {
+   "i": 178,
+   "word": "Nhớ",
+   "start": 58.735,
+   "end": 58.93,
+   "sent": 21,
+   "ipu": 30,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 58.51
+  },
+  {
+   "i": 179,
+   "word": "nấu",
+   "start": 58.93,
+   "end": 59.185,
+   "sent": 21,
+   "ipu": 30,
+   "spread": 0.05,
+   "d2": 0.04,
+   "whisper": 58.86
+  },
+  {
+   "i": 180,
+   "word": "chín,",
+   "start": 59.185,
+   "end": 59.555,
+   "sent": 21,
+   "ipu": 30,
+   "spread": 0.2,
+   "d2": 0.18,
+   "whisper": 59.04
+  },
+  {
+   "i": 181,
+   "word": "luộc,",
+   "start": 59.555,
+   "end": 59.81,
+   "sent": 21,
+   "ipu": 30,
+   "spread": 0.24,
+   "d2": 0.0,
+   "whisper": 59.54
+  },
+  {
+   "i": 182,
+   "word": "hầm,",
+   "start": 60.06,
+   "end": 60.385,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.19,
+   "d2": 0.18,
+   "whisper": 59.97
+  },
+  {
+   "i": 183,
+   "word": "rang",
+   "start": 60.385,
+   "end": 60.73,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.1,
+   "d2": 0.04,
+   "whisper": 60.41
+  },
+  {
+   "i": 184,
+   "word": "hoặc",
+   "start": 60.73,
+   "end": 60.965,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 60.49
+  },
+  {
+   "i": 185,
+   "word": "xay",
+   "start": 60.965,
+   "end": 61.2,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 60.86
+  },
+  {
+   "i": 186,
+   "word": "sữa.",
+   "start": 61.2,
+   "end": 61.765,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.25,
+   "d2": 0.2,
+   "whisper": 61.04
+  },
+  {
+   "i": 187,
+   "word": "Đừng",
+   "start": 61.765,
+   "end": 61.955,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.03,
+   "d2": 0.02,
+   "whisper": 61.57
+  },
+  {
+   "i": 188,
+   "word": "ăn",
+   "start": 61.955,
+   "end": 62.22,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.09,
+   "d2": 0.08,
+   "whisper": 61.92
+  },
+  {
+   "i": 189,
+   "word": "sống.",
+   "start": 62.22,
+   "end": 62.615,
+   "sent": 21,
+   "ipu": 31,
+   "spread": 0.27,
+   "d2": 0.24,
+   "whisper": 62.09
+  },
+  {
+   "i": 190,
+   "word": "Và",
+   "start": 62.615,
+   "end": 62.78,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 62.65
+  },
+  {
+   "i": 191,
+   "word": "đừng",
+   "start": 62.78,
+   "end": 62.99,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.03,
+   "d2": 0.02,
+   "whisper": 62.73
+  },
+  {
+   "i": 192,
+   "word": "bỏ",
+   "start": 62.99,
+   "end": 63.275,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.05,
+   "d2": 0.04,
+   "whisper": 62.88
+  },
+  {
+   "i": 193,
+   "word": "trứng",
+   "start": 63.275,
+   "end": 63.465,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.03,
+   "d2": 0.02,
+   "whisper": 63.11
+  },
+  {
+   "i": 194,
+   "word": "với",
+   "start": 63.465,
+   "end": 63.59,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.04,
+   "d2": 0.04,
+   "whisper": 63.36
+  },
+  {
+   "i": 195,
+   "word": "ức",
+   "start": 63.59,
+   "end": 63.755,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.04,
+   "d2": 0.02,
+   "whisper": 63.51
+  },
+  {
+   "i": 196,
+   "word": "gà,",
+   "start": 63.755,
+   "end": 64.215,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.16,
+   "d2": 0.16,
+   "whisper": 63.68
+  },
+  {
+   "i": 197,
+   "word": "cứ",
+   "start": 64.215,
+   "end": 64.41,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.12,
+   "d2": 0.1,
+   "whisper": 64.16
+  },
+  {
+   "i": 198,
+   "word": "trộn",
+   "start": 64.41,
+   "end": 64.63,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.07,
+   "d2": 0.04,
+   "whisper": 64.26
+  },
+  {
+   "i": 199,
+   "word": "thêm",
+   "start": 64.63,
+   "end": 64.835,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.03,
+   "d2": 0.04,
+   "whisper": 64.53
+  },
+  {
+   "i": 200,
+   "word": "đậu",
+   "start": 64.835,
+   "end": 65.04,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.1,
+   "d2": 0.08,
+   "whisper": 64.75
+  },
+  {
+   "i": 201,
+   "word": "nành",
+   "start": 65.04,
+   "end": 65.27,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 64.93
+  },
+  {
+   "i": 202,
+   "word": "vào",
+   "start": 65.27,
+   "end": 65.55,
+   "sent": 22,
+   "ipu": 31,
+   "spread": 0.16,
+   "d2": 0.0,
+   "whisper": 65.14
+  },
+  {
+   "i": 203,
+   "word": "là",
+   "start": 65.745,
+   "end": 66.01,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.09,
+   "d2": 0.06,
+   "whisper": 65.74
+  },
+  {
+   "i": 204,
+   "word": "tiền",
+   "start": 66.01,
+   "end": 66.245,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.05,
+   "d2": 0.04,
+   "whisper": 65.835
+  },
+  {
+   "i": 205,
+   "word": "đạm",
+   "start": 66.245,
+   "end": 66.615,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.03,
+   "d2": 0.06,
+   "whisper": 66.165
+  },
+  {
+   "i": 206,
+   "word": "của",
+   "start": 66.615,
+   "end": 66.795,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.08,
+   "d2": 0.1,
+   "whisper": 66.455
+  },
+  {
+   "i": 207,
+   "word": "mày",
+   "start": 66.795,
+   "end": 67.09,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.11,
+   "d2": 0.1,
+   "whisper": 66.66
+  },
+  {
+   "i": 208,
+   "word": "giảm",
+   "start": 67.09,
+   "end": 67.305,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.04,
+   "d2": 0.08,
+   "whisper": 66.93
+  },
+  {
+   "i": 209,
+   "word": "1",
+   "start": 67.305,
+   "end": 67.455,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.13,
+   "d2": 0.14,
+   "whisper": 67.245
+  },
+  {
+   "i": 210,
+   "word": "nửa.",
+   "start": 67.455,
+   "end": 67.785,
+   "sent": 22,
+   "ipu": 32,
+   "spread": 0.1,
+   "d2": 0.0,
+   "whisper": 67.41
+  },
+  {
+   "i": 211,
+   "word": "Lưu",
+   "start": 67.985,
+   "end": 68.21,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.16,
+   "d2": 0.14,
+   "whisper": 67.98
+  },
+  {
+   "i": 212,
+   "word": "video",
+   "start": 68.21,
+   "end": 68.555,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.12,
+   "d2": 0.12,
+   "whisper": 68.22
+  },
+  {
+   "i": 213,
+   "word": "này",
+   "start": 68.555,
+   "end": 68.745,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 68.42
+  },
+  {
+   "i": 214,
+   "word": "lại,",
+   "start": 68.745,
+   "end": 69.115,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.2,
+   "d2": 0.2,
+   "whisper": 68.612
+  },
+  {
+   "i": 215,
+   "word": "mai",
+   "start": 69.115,
+   "end": 69.45,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.18,
+   "d2": 0.18,
+   "whisper": 69.1
+  },
+  {
+   "i": 216,
+   "word": "đi",
+   "start": 69.45,
+   "end": 69.68,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 69.3
+  },
+  {
+   "i": 217,
+   "word": "chợ",
+   "start": 69.68,
+   "end": 69.985,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.02,
+   "d2": 0.02,
+   "whisper": 69.472
+  },
+  {
+   "i": 218,
+   "word": "khỏi",
+   "start": 69.985,
+   "end": 70.195,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.02,
+   "d2": 0.04,
+   "whisper": 69.812
+  },
+  {
+   "i": 219,
+   "word": "bị",
+   "start": 70.195,
+   "end": 70.37,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.08,
+   "d2": 0.08,
+   "whisper": 70.082
+  },
+  {
+   "i": 220,
+   "word": "hớ.",
+   "start": 70.37,
+   "end": 70.665,
+   "sent": 23,
+   "ipu": 33,
+   "spread": 0.26,
+   "d2": 0.0,
+   "whisper": 70.28
+  },
+  {
+   "i": 221,
+   "word": "Mày",
+   "start": 71.16,
+   "end": 71.38,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.06,
+   "d2": 0.04,
+   "whisper": 71.155
+  },
+  {
+   "i": 222,
+   "word": "đang",
+   "start": 71.38,
+   "end": 71.52,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.06,
+   "d2": 0.08,
+   "whisper": 71.305
+  },
+  {
+   "i": 223,
+   "word": "ăn",
+   "start": 71.52,
+   "end": 71.725,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.06,
+   "d2": 0.06,
+   "whisper": 71.425
+  },
+  {
+   "i": 224,
+   "word": "món",
+   "start": 71.725,
+   "end": 71.925,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.1,
+   "d2": 0.12,
+   "whisper": 71.595
+  },
+  {
+   "i": 225,
+   "word": "hạng",
+   "start": 71.925,
+   "end": 72.14,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.0,
+   "d2": 0.02,
+   "whisper": 71.84
+  },
+  {
+   "i": 226,
+   "word": "mấy?",
+   "start": 72.14,
+   "end": 72.455,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.12,
+   "d2": 0.14,
+   "whisper": 72.055
+  },
+  {
+   "i": 227,
+   "word": "Comment",
+   "start": 72.455,
+   "end": 72.765,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.1,
+   "d2": 0.12,
+   "whisper": 72.38
+  },
+  {
+   "i": 228,
+   "word": "tao",
+   "start": 72.765,
+   "end": 73.0,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.08,
+   "d2": 0.06,
+   "whisper": 72.64
+  },
+  {
+   "i": 229,
+   "word": "xem.",
+   "start": 73.0,
+   "end": 73.245,
+   "sent": 24,
+   "ipu": 34,
+   "spread": 0.0,
+   "d2": 0.0,
+   "whisper": 72.835
+  }
+ ],
+ "syll": [
+  {
+   "i": 0,
+   "q": 0,
+   "syl": "trứng",
+   "t": 0.315,
+   "ipu": 0
+  },
+  {
+   "i": 1,
+   "q": 0,
+   "syl": "không",
+   "t": 0.625,
+   "ipu": 0
+  },
+  {
+   "i": 2,
+   "q": 0,
+   "syl": "phải",
+   "t": 0.835,
+   "ipu": 0
+  },
+  {
+   "i": 3,
+   "q": 0,
+   "syl": "nguồn",
+   "t": 1.025,
+   "ipu": 0
+  },
+  {
+   "i": 4,
+   "q": 0,
+   "syl": "đạm",
+   "t": 1.195,
+   "ipu": 0
+  },
+  {
+   "i": 5,
+   "q": 0,
+   "syl": "rẻ",
+   "t": 1.445,
+   "ipu": 0
+  },
+  {
+   "i": 6,
+   "q": 0,
+   "syl": "nhất",
+   "t": 1.655,
+   "ipu": 0
+  },
+  {
+   "i": 7,
+   "q": 0,
+   "syl": "whey",
+   "t": 2.2,
+   "ipu": 1
+  },
+  {
+   "i": 8,
+   "q": 0,
+   "syl": "càng",
+   "t": 2.665,
+   "ipu": 1
+  },
+  {
+   "i": 9,
+   "q": 0,
+   "syl": "không",
+   "t": 2.93,
+   "ipu": 1
+  },
+  {
+   "i": 10,
+   "q": 0,
+   "syl": "món",
+   "t": 3.545,
+   "ipu": 2
+  },
+  {
+   "i": 11,
+   "q": 0,
+   "syl": "đứng",
+   "t": 3.755,
+   "ipu": 2
+  },
+  {
+   "i": 12,
+   "q": 0,
+   "syl": "top",
+   "t": 3.955,
+   "ipu": 2
+  },
+  {
+   "i": 13,
+   "q": 0,
+   "syl": "một",
+   "t": 4.16,
+   "ipu": 2
+  },
+  {
+   "i": 14,
+   "q": 0,
+   "syl": "giá",
+   "t": 4.54,
+   "ipu": 2
+  },
+  {
+   "i": 15,
+   "q": 0,
+   "syl": "chưa",
+   "t": 4.89,
+   "ipu": 2
+  },
+  {
+   "i": 16,
+   "q": 0,
+   "syl": "tới",
+   "t": 5.07,
+   "ipu": 2
+  },
+  {
+   "i": 17,
+   "q": 0,
+   "syl": "một",
+   "t": 5.265,
+   "ipu": 2
+  },
+  {
+   "i": 17,
+   "q": 1,
+   "syl": "trăm",
+   "t": 5.475,
+   "ipu": 2
+  },
+  {
+   "i": 17,
+   "q": 2,
+   "syl": "năm",
+   "t": 5.69,
+   "ipu": 2
+  },
+  {
+   "i": 17,
+   "q": 3,
+   "syl": "mươi",
+   "t": 5.875,
+   "ipu": 2
+  },
+  {
+   "i": 18,
+   "q": 0,
+   "syl": "đồng",
+   "t": 6.07,
+   "ipu": 2
+  },
+  {
+   "i": 19,
+   "q": 0,
+   "syl": "một",
+   "t": 6.33,
+   "ipu": 2
+  },
+  {
+   "i": 20,
+   "q": 0,
+   "syl": "gam",
+   "t": 6.47,
+   "ipu": 2
+  },
+  {
+   "i": 21,
+   "q": 0,
+   "syl": "đạm",
+   "t": 6.69,
+   "ipu": 2
+  },
+  {
+   "i": 22,
+   "q": 0,
+   "syl": "và",
+   "t": 7.365,
+   "ipu": 3
+  },
+  {
+   "i": 23,
+   "q": 0,
+   "syl": "hầu",
+   "t": 7.555,
+   "ipu": 3
+  },
+  {
+   "i": 24,
+   "q": 0,
+   "syl": "hết",
+   "t": 7.785,
+   "ipu": 3
+  },
+  {
+   "i": 25,
+   "q": 0,
+   "syl": "dân",
+   "t": 8.075,
+   "ipu": 3
+  },
+  {
+   "i": 26,
+   "q": 0,
+   "syl": "gym",
+   "t": 8.315,
+   "ipu": 3
+  },
+  {
+   "i": 27,
+   "q": 0,
+   "syl": "không",
+   "t": 8.69,
+   "ipu": 3
+  },
+  {
+   "i": 28,
+   "q": 0,
+   "syl": "bao",
+   "t": 8.81,
+   "ipu": 3
+  },
+  {
+   "i": 29,
+   "q": 0,
+   "syl": "giờ",
+   "t": 9.005,
+   "ipu": 3
+  },
+  {
+   "i": 30,
+   "q": 0,
+   "syl": "ăn",
+   "t": 9.14,
+   "ipu": 3
+  },
+  {
+   "i": 31,
+   "q": 0,
+   "syl": "nó",
+   "t": 9.325,
+   "ipu": 3
+  },
+  {
+   "i": 32,
+   "q": 0,
+   "syl": "tao",
+   "t": 9.685,
+   "ipu": 4
+  },
+  {
+   "i": 33,
+   "q": 0,
+   "syl": "đã",
+   "t": 10.29,
+   "ipu": 5
+  },
+  {
+   "i": 34,
+   "q": 0,
+   "syl": "tính",
+   "t": 10.55,
+   "ipu": 5
+  },
+  {
+   "i": 35,
+   "q": 0,
+   "syl": "giá",
+   "t": 10.73,
+   "ipu": 5
+  },
+  {
+   "i": 36,
+   "q": 0,
+   "syl": "từng",
+   "t": 10.945,
+   "ipu": 5
+  },
+  {
+   "i": 37,
+   "q": 0,
+   "syl": "gam",
+   "t": 11.105,
+   "ipu": 5
+  },
+  {
+   "i": 38,
+   "q": 0,
+   "syl": "đạm",
+   "t": 11.33,
+   "ipu": 5
+  },
+  {
+   "i": 39,
+   "q": 0,
+   "syl": "của",
+   "t": 11.61,
+   "ipu": 5
+  },
+  {
+   "i": 40,
+   "q": 0,
+   "syl": "sáu",
+   "t": 11.785,
+   "ipu": 5
+  },
+  {
+   "i": 41,
+   "q": 0,
+   "syl": "món",
+   "t": 11.985,
+   "ipu": 5
+  },
+  {
+   "i": 42,
+   "q": 0,
+   "syl": "xem",
+   "t": 12.725,
+   "ipu": 6
+  },
+  {
+   "i": 43,
+   "q": 0,
+   "syl": "tới",
+   "t": 12.92,
+   "ipu": 6
+  },
+  {
+   "i": 44,
+   "q": 0,
+   "syl": "cuối",
+   "t": 13.145,
+   "ipu": 6
+  },
+  {
+   "i": 45,
+   "q": 0,
+   "syl": "top",
+   "t": 13.425,
+   "ipu": 6
+  },
+  {
+   "i": 46,
+   "q": 0,
+   "syl": "một",
+   "t": 13.6,
+   "ipu": 6
+  },
+  {
+   "i": 47,
+   "q": 0,
+   "syl": "sẽ",
+   "t": 13.965,
+   "ipu": 6
+  },
+  {
+   "i": 48,
+   "q": 0,
+   "syl": "làm",
+   "t": 14.105,
+   "ipu": 6
+  },
+  {
+   "i": 49,
+   "q": 0,
+   "syl": "mày",
+   "t": 14.275,
+   "ipu": 6
+  },
+  {
+   "i": 50,
+   "q": 0,
+   "syl": "tức",
+   "t": 14.485,
+   "ipu": 6
+  },
+  {
+   "i": 51,
+   "q": 0,
+   "syl": "hạng",
+   "t": 15.21,
+   "ipu": 7
+  },
+  {
+   "i": 52,
+   "q": 0,
+   "syl": "sáu",
+   "t": 15.615,
+   "ipu": 7
+  },
+  {
+   "i": 53,
+   "q": 0,
+   "syl": "whey",
+   "t": 15.84,
+   "ipu": 7
+  },
+  {
+   "i": 54,
+   "q": 0,
+   "syl": "một",
+   "t": 16.35,
+   "ipu": 8
+  },
+  {
+   "i": 55,
+   "q": 0,
+   "syl": "hũ",
+   "t": 16.52,
+   "ipu": 8
+  },
+  {
+   "i": 56,
+   "q": 0,
+   "syl": "gần",
+   "t": 16.755,
+   "ipu": 8
+  },
+  {
+   "i": 57,
+   "q": 0,
+   "syl": "hai",
+   "t": 17.025,
+   "ipu": 8
+  },
+  {
+   "i": 58,
+   "q": 0,
+   "syl": "triệu",
+   "t": 17.29,
+   "ipu": 8
+  },
+  {
+   "i": 59,
+   "q": 0,
+   "syl": "mỗi",
+   "t": 17.63,
+   "ipu": 8
+  },
+  {
+   "i": 60,
+   "q": 0,
+   "syl": "gam",
+   "t": 17.81,
+   "ipu": 8
+  },
+  {
+   "i": 61,
+   "q": 0,
+   "syl": "đạm",
+   "t": 18.025,
+   "ipu": 8
+  },
+  {
+   "i": 62,
+   "q": 0,
+   "syl": "hơn",
+   "t": 18.315,
+   "ipu": 8
+  },
+  {
+   "i": 63,
+   "q": 0,
+   "syl": "một",
+   "t": 18.5,
+   "ipu": 8
+  },
+  {
+   "i": 63,
+   "q": 1,
+   "syl": "nghìn",
+   "t": 18.62,
+   "ipu": 8
+  },
+  {
+   "i": 64,
+   "q": 0,
+   "syl": "đồng",
+   "t": 18.87,
+   "ipu": 8
+  },
+  {
+   "i": 65,
+   "q": 0,
+   "syl": "tiện",
+   "t": 19.555,
+   "ipu": 9
+  },
+  {
+   "i": 66,
+   "q": 0,
+   "syl": "thật",
+   "t": 19.755,
+   "ipu": 9
+  },
+  {
+   "i": 67,
+   "q": 0,
+   "syl": "nhưng",
+   "t": 20.23,
+   "ipu": 10
+  },
+  {
+   "i": 68,
+   "q": 0,
+   "syl": "đắt",
+   "t": 20.555,
+   "ipu": 10
+  },
+  {
+   "i": 69,
+   "q": 0,
+   "syl": "nhất",
+   "t": 20.71,
+   "ipu": 10
+  },
+  {
+   "i": 70,
+   "q": 0,
+   "syl": "bảng",
+   "t": 20.975,
+   "ipu": 10
+  },
+  {
+   "i": 71,
+   "q": 0,
+   "syl": "hạng",
+   "t": 21.565,
+   "ipu": 11
+  },
+  {
+   "i": 72,
+   "q": 0,
+   "syl": "năm",
+   "t": 21.805,
+   "ipu": 11
+  },
+  {
+   "i": 73,
+   "q": 0,
+   "syl": "và",
+   "t": 21.975,
+   "ipu": 11
+  },
+  {
+   "i": 74,
+   "q": 0,
+   "syl": "đây",
+   "t": 22.16,
+   "ipu": 11
+  },
+  {
+   "i": 75,
+   "q": 0,
+   "syl": "là",
+   "t": 22.335,
+   "ipu": 11
+  },
+  {
+   "i": 76,
+   "q": 0,
+   "syl": "cú",
+   "t": 22.865,
+   "ipu": 12
+  },
+  {
+   "i": 77,
+   "q": 0,
+   "syl": "sốc",
+   "t": 23.125,
+   "ipu": 12
+  },
+  {
+   "i": 78,
+   "q": 0,
+   "syl": "trứng",
+   "t": 23.66,
+   "ipu": 13
+  },
+  {
+   "i": 79,
+   "q": 0,
+   "syl": "ba",
+   "t": 24.26,
+   "ipu": 14
+  },
+  {
+   "i": 79,
+   "q": 1,
+   "syl": "nghìn",
+   "t": 24.47,
+   "ipu": 14
+  },
+  {
+   "i": 80,
+   "q": 0,
+   "syl": "đồng",
+   "t": 24.66,
+   "ipu": 14
+  },
+  {
+   "i": 81,
+   "q": 0,
+   "syl": "một",
+   "t": 24.855,
+   "ipu": 14
+  },
+  {
+   "i": 82,
+   "q": 0,
+   "syl": "quả",
+   "t": 25.065,
+   "ipu": 14
+  },
+  {
+   "i": 83,
+   "q": 0,
+   "syl": "được",
+   "t": 25.415,
+   "ipu": 14
+  },
+  {
+   "i": 84,
+   "q": 0,
+   "syl": "sáu",
+   "t": 25.655,
+   "ipu": 14
+  },
+  {
+   "i": 85,
+   "q": 0,
+   "syl": "gam",
+   "t": 25.805,
+   "ipu": 14
+  },
+  {
+   "i": 86,
+   "q": 0,
+   "syl": "rưỡi",
+   "t": 26.025,
+   "ipu": 14
+  },
+  {
+   "i": 87,
+   "q": 0,
+   "syl": "đạm",
+   "t": 26.175,
+   "ipu": 14
+  },
+  {
+   "i": 88,
+   "q": 0,
+   "syl": "tính",
+   "t": 26.475,
+   "ipu": 15
+  },
+  {
+   "i": 89,
+   "q": 0,
+   "syl": "ra",
+   "t": 26.715,
+   "ipu": 15
+  },
+  {
+   "i": 90,
+   "q": 0,
+   "syl": "bốn",
+   "t": 27.03,
+   "ipu": 15
+  },
+  {
+   "i": 90,
+   "q": 1,
+   "syl": "trăm",
+   "t": 27.305,
+   "ipu": 15
+  },
+  {
+   "i": 90,
+   "q": 2,
+   "syl": "sáu",
+   "t": 27.565,
+   "ipu": 15
+  },
+  {
+   "i": 90,
+   "q": 3,
+   "syl": "mươi",
+   "t": 27.72,
+   "ipu": 15
+  },
+  {
+   "i": 91,
+   "q": 0,
+   "syl": "đồng",
+   "t": 27.855,
+   "ipu": 15
+  },
+  {
+   "i": 92,
+   "q": 0,
+   "syl": "một",
+   "t": 28.05,
+   "ipu": 15
+  },
+  {
+   "i": 93,
+   "q": 0,
+   "syl": "gam",
+   "t": 28.18,
+   "ipu": 15
+  },
+  {
+   "i": 94,
+   "q": 0,
+   "syl": "áp",
+   "t": 28.625,
+   "ipu": 16
+  },
+  {
+   "i": 95,
+   "q": 0,
+   "syl": "chót",
+   "t": 28.865,
+   "ipu": 17
+  },
+  {
+   "i": 96,
+   "q": 0,
+   "syl": "hạng",
+   "t": 29.665,
+   "ipu": 18
+  },
+  {
+   "i": 97,
+   "q": 0,
+   "syl": "bốn",
+   "t": 29.89,
+   "ipu": 18
+  },
+  {
+   "i": 98,
+   "q": 0,
+   "syl": "đậu",
+   "t": 30.21,
+   "ipu": 18
+  },
+  {
+   "i": 99,
+   "q": 0,
+   "syl": "phụ",
+   "t": 30.515,
+   "ipu": 18
+  },
+  {
+   "i": 100,
+   "q": 0,
+   "syl": "khoảng",
+   "t": 30.975,
+   "ipu": 18
+  },
+  {
+   "i": 101,
+   "q": 0,
+   "syl": "ba",
+   "t": 31.215,
+   "ipu": 18
+  },
+  {
+   "i": 101,
+   "q": 1,
+   "syl": "trăm",
+   "t": 31.425,
+   "ipu": 18
+  },
+  {
+   "i": 101,
+   "q": 2,
+   "syl": "bảy",
+   "t": 31.6,
+   "ipu": 18
+  },
+  {
+   "i": 101,
+   "q": 3,
+   "syl": "mươi",
+   "t": 31.8,
+   "ipu": 18
+  },
+  {
+   "i": 102,
+   "q": 0,
+   "syl": "đồng",
+   "t": 31.925,
+   "ipu": 18
+  },
+  {
+   "i": 103,
+   "q": 0,
+   "syl": "hạng",
+   "t": 32.5,
+   "ipu": 18
+  },
+  {
+   "i": 104,
+   "q": 0,
+   "syl": "ba",
+   "t": 32.695,
+   "ipu": 18
+  },
+  {
+   "i": 105,
+   "q": 0,
+   "syl": "ức",
+   "t": 32.92,
+   "ipu": 18
+  },
+  {
+   "i": 106,
+   "q": 0,
+   "syl": "gà",
+   "t": 33.12,
+   "ipu": 18
+  },
+  {
+   "i": 107,
+   "q": 0,
+   "syl": "bảy",
+   "t": 33.66,
+   "ipu": 19
+  },
+  {
+   "i": 107,
+   "q": 1,
+   "syl": "mươi",
+   "t": 33.87,
+   "ipu": 19
+  },
+  {
+   "i": 107,
+   "q": 2,
+   "syl": "lăm",
+   "t": 34.01,
+   "ipu": 19
+  },
+  {
+   "i": 107,
+   "q": 3,
+   "syl": "nghìn",
+   "t": 34.185,
+   "ipu": 19
+  },
+  {
+   "i": 108,
+   "q": 0,
+   "syl": "đồng",
+   "t": 34.345,
+   "ipu": 19
+  },
+  {
+   "i": 109,
+   "q": 0,
+   "syl": "một",
+   "t": 34.54,
+   "ipu": 19
+  },
+  {
+   "i": 110,
+   "q": 0,
+   "syl": "cân",
+   "t": 34.735,
+   "ipu": 19
+  },
+  {
+   "i": 111,
+   "q": 0,
+   "syl": "ba",
+   "t": 35.325,
+   "ipu": 19
+  },
+  {
+   "i": 111,
+   "q": 1,
+   "syl": "trăm",
+   "t": 35.54,
+   "ipu": 19
+  },
+  {
+   "i": 111,
+   "q": 2,
+   "syl": "ba",
+   "t": 35.715,
+   "ipu": 19
+  },
+  {
+   "i": 111,
+   "q": 3,
+   "syl": "mươi",
+   "t": 35.875,
+   "ipu": 19
+  },
+  {
+   "i": 112,
+   "q": 0,
+   "syl": "đồng",
+   "t": 35.99,
+   "ipu": 19
+  },
+  {
+   "i": 113,
+   "q": 0,
+   "syl": "một",
+   "t": 36.195,
+   "ipu": 19
+  },
+  {
+   "i": 114,
+   "q": 0,
+   "syl": "gam",
+   "t": 36.355,
+   "ipu": 19
+  },
+  {
+   "i": 115,
+   "q": 0,
+   "syl": "đúng",
+   "t": 37.06,
+   "ipu": 20
+  },
+  {
+   "i": 116,
+   "q": 0,
+   "syl": "ức",
+   "t": 37.45,
+   "ipu": 20
+  },
+  {
+   "i": 117,
+   "q": 0,
+   "syl": "gà",
+   "t": 37.65,
+   "ipu": 20
+  },
+  {
+   "i": 118,
+   "q": 0,
+   "syl": "rẻ",
+   "t": 37.945,
+   "ipu": 20
+  },
+  {
+   "i": 119,
+   "q": 0,
+   "syl": "hơn",
+   "t": 38.145,
+   "ipu": 20
+  },
+  {
+   "i": 120,
+   "q": 0,
+   "syl": "trứng",
+   "t": 38.36,
+   "ipu": 20
+  },
+  {
+   "i": 121,
+   "q": 0,
+   "syl": "hạng",
+   "t": 39.28,
+   "ipu": 21
+  },
+  {
+   "i": 122,
+   "q": 0,
+   "syl": "hai",
+   "t": 39.535,
+   "ipu": 21
+  },
+  {
+   "i": 123,
+   "q": 0,
+   "syl": "lạc",
+   "t": 39.835,
+   "ipu": 21
+  },
+  {
+   "i": 124,
+   "q": 0,
+   "syl": "chỉ",
+   "t": 40.455,
+   "ipu": 22
+  },
+  {
+   "i": 125,
+   "q": 0,
+   "syl": "khoảng",
+   "t": 40.64,
+   "ipu": 22
+  },
+  {
+   "i": 126,
+   "q": 0,
+   "syl": "hai",
+   "t": 40.905,
+   "ipu": 22
+  },
+  {
+   "i": 126,
+   "q": 1,
+   "syl": "trăm",
+   "t": 41.115,
+   "ipu": 22
+  },
+  {
+   "i": 126,
+   "q": 2,
+   "syl": "bốn",
+   "t": 41.285,
+   "ipu": 22
+  },
+  {
+   "i": 126,
+   "q": 3,
+   "syl": "mươi",
+   "t": 41.45,
+   "ipu": 22
+  },
+  {
+   "i": 127,
+   "q": 0,
+   "syl": "đồng",
+   "t": 41.59,
+   "ipu": 22
+  },
+  {
+   "i": 128,
+   "q": 0,
+   "syl": "một",
+   "t": 41.795,
+   "ipu": 22
+  },
+  {
+   "i": 129,
+   "q": 0,
+   "syl": "gam",
+   "t": 41.98,
+   "ipu": 22
+  },
+  {
+   "i": 130,
+   "q": 0,
+   "syl": "nhưng",
+   "t": 42.63,
+   "ipu": 23
+  },
+  {
+   "i": 131,
+   "q": 0,
+   "syl": "cẩn",
+   "t": 42.85,
+   "ipu": 23
+  },
+  {
+   "i": 132,
+   "q": 0,
+   "syl": "thận",
+   "t": 43.09,
+   "ipu": 23
+  },
+  {
+   "i": 133,
+   "q": 0,
+   "syl": "một",
+   "t": 43.67,
+   "ipu": 24
+  },
+  {
+   "i": 133,
+   "q": 1,
+   "syl": "trăm",
+   "t": 43.89,
+   "ipu": 24
+  },
+  {
+   "i": 134,
+   "q": 0,
+   "syl": "gam",
+   "t": 44.095,
+   "ipu": 24
+  },
+  {
+   "i": 135,
+   "q": 0,
+   "syl": "lạc",
+   "t": 44.275,
+   "ipu": 24
+  },
+  {
+   "i": 136,
+   "q": 0,
+   "syl": "gần",
+   "t": 44.56,
+   "ipu": 24
+  },
+  {
+   "i": 137,
+   "q": 0,
+   "syl": "năm",
+   "t": 44.83,
+   "ipu": 24
+  },
+  {
+   "i": 137,
+   "q": 1,
+   "syl": "trăm",
+   "t": 45.06,
+   "ipu": 24
+  },
+  {
+   "i": 137,
+   "q": 2,
+   "syl": "bảy",
+   "t": 45.27,
+   "ipu": 24
+  },
+  {
+   "i": 137,
+   "q": 3,
+   "syl": "mươi",
+   "t": 45.485,
+   "ipu": 24
+  },
+  {
+   "i": 138,
+   "q": 0,
+   "syl": "ca",
+   "t": 45.665,
+   "ipu": 24
+  },
+  {
+   "i": 138,
+   "q": 1,
+   "syl": "lo",
+   "t": 46.005,
+   "ipu": 24
+  },
+  {
+   "i": 139,
+   "q": 0,
+   "syl": "ăn",
+   "t": 46.39,
+   "ipu": 24
+  },
+  {
+   "i": 140,
+   "q": 0,
+   "syl": "nhiều",
+   "t": 46.675,
+   "ipu": 24
+  },
+  {
+   "i": 141,
+   "q": 0,
+   "syl": "là",
+   "t": 46.9,
+   "ipu": 24
+  },
+  {
+   "i": 142,
+   "q": 0,
+   "syl": "béo",
+   "t": 47.07,
+   "ipu": 24
+  },
+  {
+   "i": 143,
+   "q": 0,
+   "syl": "chứ",
+   "t": 47.505,
+   "ipu": 24
+  },
+  {
+   "i": 144,
+   "q": 0,
+   "syl": "không",
+   "t": 47.64,
+   "ipu": 24
+  },
+  {
+   "i": 145,
+   "q": 0,
+   "syl": "phải",
+   "t": 47.795,
+   "ipu": 24
+  },
+  {
+   "i": 146,
+   "q": 0,
+   "syl": "to",
+   "t": 47.965,
+   "ipu": 24
+  },
+  {
+   "i": 147,
+   "q": 0,
+   "syl": "còn",
+   "t": 48.725,
+   "ipu": 25
+  },
+  {
+   "i": 148,
+   "q": 0,
+   "syl": "top",
+   "t": 48.985,
+   "ipu": 25
+  },
+  {
+   "i": 149,
+   "q": 0,
+   "syl": "một",
+   "t": 49.205,
+   "ipu": 25
+  },
+  {
+   "i": 150,
+   "q": 0,
+   "syl": "đậu",
+   "t": 49.63,
+   "ipu": 26
+  },
+  {
+   "i": 151,
+   "q": 0,
+   "syl": "nành",
+   "t": 49.885,
+   "ipu": 26
+  },
+  {
+   "i": 152,
+   "q": 0,
+   "syl": "khô",
+   "t": 50.17,
+   "ipu": 26
+  },
+  {
+   "i": 153,
+   "q": 0,
+   "syl": "ba",
+   "t": 50.705,
+   "ipu": 27
+  },
+  {
+   "i": 153,
+   "q": 1,
+   "syl": "mươi",
+   "t": 50.895,
+   "ipu": 27
+  },
+  {
+   "i": 153,
+   "q": 2,
+   "syl": "lăm",
+   "t": 51.06,
+   "ipu": 27
+  },
+  {
+   "i": 154,
+   "q": 0,
+   "syl": "một",
+   "t": 51.24,
+   "ipu": 27
+  },
+  {
+   "i": 155,
+   "q": 0,
+   "syl": "cân",
+   "t": 51.665,
+   "ipu": 27
+  },
+  {
+   "i": 156,
+   "q": 0,
+   "syl": "một",
+   "t": 51.955,
+   "ipu": 27
+  },
+  {
+   "i": 156,
+   "q": 1,
+   "syl": "trăm",
+   "t": 52.165,
+   "ipu": 27
+  },
+  {
+   "i": 157,
+   "q": 0,
+   "syl": "gam",
+   "t": 52.385,
+   "ipu": 27
+  },
+  {
+   "i": 158,
+   "q": 0,
+   "syl": "có",
+   "t": 52.83,
+   "ipu": 28
+  },
+  {
+   "i": 159,
+   "q": 0,
+   "syl": "ba",
+   "t": 52.98,
+   "ipu": 28
+  },
+  {
+   "i": 159,
+   "q": 1,
+   "syl": "mươi",
+   "t": 53.155,
+   "ipu": 28
+  },
+  {
+   "i": 159,
+   "q": 2,
+   "syl": "sáu",
+   "t": 53.32,
+   "ipu": 28
+  },
+  {
+   "i": 160,
+   "q": 0,
+   "syl": "gam",
+   "t": 53.52,
+   "ipu": 28
+  },
+  {
+   "i": 161,
+   "q": 0,
+   "syl": "đạm",
+   "t": 53.725,
+   "ipu": 28
+  },
+  {
+   "i": 162,
+   "q": 0,
+   "syl": "mỗi",
+   "t": 54.335,
+   "ipu": 29
+  },
+  {
+   "i": 163,
+   "q": 0,
+   "syl": "gam",
+   "t": 54.55,
+   "ipu": 29
+  },
+  {
+   "i": 164,
+   "q": 0,
+   "syl": "chỉ",
+   "t": 54.96,
+   "ipu": 29
+  },
+  {
+   "i": 165,
+   "q": 0,
+   "syl": "khoảng",
+   "t": 55.175,
+   "ipu": 29
+  },
+  {
+   "i": 166,
+   "q": 0,
+   "syl": "một",
+   "t": 55.375,
+   "ipu": 29
+  },
+  {
+   "i": 166,
+   "q": 1,
+   "syl": "trăm",
+   "t": 55.56,
+   "ipu": 29
+  },
+  {
+   "i": 167,
+   "q": 0,
+   "syl": "đồng",
+   "t": 55.75,
+   "ipu": 29
+  },
+  {
+   "i": 168,
+   "q": 0,
+   "syl": "rẻ",
+   "t": 56.185,
+   "ipu": 29
+  },
+  {
+   "i": 169,
+   "q": 0,
+   "syl": "hơn",
+   "t": 56.38,
+   "ipu": 29
+  },
+  {
+   "i": 170,
+   "q": 0,
+   "syl": "trứng",
+   "t": 56.615,
+   "ipu": 29
+  },
+  {
+   "i": 171,
+   "q": 0,
+   "syl": "bốn",
+   "t": 56.805,
+   "ipu": 29
+  },
+  {
+   "i": 172,
+   "q": 0,
+   "syl": "lần",
+   "t": 57.03,
+   "ipu": 29
+  },
+  {
+   "i": 173,
+   "q": 0,
+   "syl": "rẻ",
+   "t": 57.46,
+   "ipu": 30
+  },
+  {
+   "i": 174,
+   "q": 0,
+   "syl": "hơn",
+   "t": 57.715,
+   "ipu": 30
+  },
+  {
+   "i": 175,
+   "q": 0,
+   "syl": "whey",
+   "t": 57.92,
+   "ipu": 30
+  },
+  {
+   "i": 176,
+   "q": 0,
+   "syl": "mười",
+   "t": 58.15,
+   "ipu": 30
+  },
+  {
+   "i": 177,
+   "q": 0,
+   "syl": "lần",
+   "t": 58.335,
+   "ipu": 30
+  },
+  {
+   "i": 178,
+   "q": 0,
+   "syl": "nhớ",
+   "t": 58.735,
+   "ipu": 30
+  },
+  {
+   "i": 179,
+   "q": 0,
+   "syl": "nấu",
+   "t": 58.93,
+   "ipu": 30
+  },
+  {
+   "i": 180,
+   "q": 0,
+   "syl": "chín",
+   "t": 59.185,
+   "ipu": 30
+  },
+  {
+   "i": 181,
+   "q": 0,
+   "syl": "luộc",
+   "t": 59.555,
+   "ipu": 30
+  },
+  {
+   "i": 182,
+   "q": 0,
+   "syl": "hầm",
+   "t": 60.06,
+   "ipu": 31
+  },
+  {
+   "i": 183,
+   "q": 0,
+   "syl": "rang",
+   "t": 60.385,
+   "ipu": 31
+  },
+  {
+   "i": 184,
+   "q": 0,
+   "syl": "hoặc",
+   "t": 60.73,
+   "ipu": 31
+  },
+  {
+   "i": 185,
+   "q": 0,
+   "syl": "xay",
+   "t": 60.965,
+   "ipu": 31
+  },
+  {
+   "i": 186,
+   "q": 0,
+   "syl": "sữa",
+   "t": 61.2,
+   "ipu": 31
+  },
+  {
+   "i": 187,
+   "q": 0,
+   "syl": "đừng",
+   "t": 61.765,
+   "ipu": 31
+  },
+  {
+   "i": 188,
+   "q": 0,
+   "syl": "ăn",
+   "t": 61.955,
+   "ipu": 31
+  },
+  {
+   "i": 189,
+   "q": 0,
+   "syl": "sống",
+   "t": 62.22,
+   "ipu": 31
+  },
+  {
+   "i": 190,
+   "q": 0,
+   "syl": "và",
+   "t": 62.615,
+   "ipu": 31
+  },
+  {
+   "i": 191,
+   "q": 0,
+   "syl": "đừng",
+   "t": 62.78,
+   "ipu": 31
+  },
+  {
+   "i": 192,
+   "q": 0,
+   "syl": "bỏ",
+   "t": 62.99,
+   "ipu": 31
+  },
+  {
+   "i": 193,
+   "q": 0,
+   "syl": "trứng",
+   "t": 63.275,
+   "ipu": 31
+  },
+  {
+   "i": 194,
+   "q": 0,
+   "syl": "với",
+   "t": 63.465,
+   "ipu": 31
+  },
+  {
+   "i": 195,
+   "q": 0,
+   "syl": "ức",
+   "t": 63.59,
+   "ipu": 31
+  },
+  {
+   "i": 196,
+   "q": 0,
+   "syl": "gà",
+   "t": 63.755,
+   "ipu": 31
+  },
+  {
+   "i": 197,
+   "q": 0,
+   "syl": "cứ",
+   "t": 64.215,
+   "ipu": 31
+  },
+  {
+   "i": 198,
+   "q": 0,
+   "syl": "trộn",
+   "t": 64.41,
+   "ipu": 31
+  },
+  {
+   "i": 199,
+   "q": 0,
+   "syl": "thêm",
+   "t": 64.63,
+   "ipu": 31
+  },
+  {
+   "i": 200,
+   "q": 0,
+   "syl": "đậu",
+   "t": 64.835,
+   "ipu": 31
+  },
+  {
+   "i": 201,
+   "q": 0,
+   "syl": "nành",
+   "t": 65.04,
+   "ipu": 31
+  },
+  {
+   "i": 202,
+   "q": 0,
+   "syl": "vào",
+   "t": 65.27,
+   "ipu": 31
+  },
+  {
+   "i": 203,
+   "q": 0,
+   "syl": "là",
+   "t": 65.745,
+   "ipu": 32
+  },
+  {
+   "i": 204,
+   "q": 0,
+   "syl": "tiền",
+   "t": 66.01,
+   "ipu": 32
+  },
+  {
+   "i": 205,
+   "q": 0,
+   "syl": "đạm",
+   "t": 66.245,
+   "ipu": 32
+  },
+  {
+   "i": 206,
+   "q": 0,
+   "syl": "của",
+   "t": 66.615,
+   "ipu": 32
+  },
+  {
+   "i": 207,
+   "q": 0,
+   "syl": "mày",
+   "t": 66.795,
+   "ipu": 32
+  },
+  {
+   "i": 208,
+   "q": 0,
+   "syl": "giảm",
+   "t": 67.09,
+   "ipu": 32
+  },
+  {
+   "i": 209,
+   "q": 0,
+   "syl": "một",
+   "t": 67.305,
+   "ipu": 32
+  },
+  {
+   "i": 210,
+   "q": 0,
+   "syl": "nửa",
+   "t": 67.455,
+   "ipu": 32
+  },
+  {
+   "i": 211,
+   "q": 0,
+   "syl": "lưu",
+   "t": 67.985,
+   "ipu": 33
+  },
+  {
+   "i": 212,
+   "q": 0,
+   "syl": "vi",
+   "t": 68.21,
+   "ipu": 33
+  },
+  {
+   "i": 212,
+   "q": 1,
+   "syl": "đê",
+   "t": 68.325,
+   "ipu": 33
+  },
+  {
+   "i": 212,
+   "q": 2,
+   "syl": "ô",
+   "t": 68.425,
+   "ipu": 33
+  },
+  {
+   "i": 213,
+   "q": 0,
+   "syl": "này",
+   "t": 68.555,
+   "ipu": 33
+  },
+  {
+   "i": 214,
+   "q": 0,
+   "syl": "lại",
+   "t": 68.745,
+   "ipu": 33
+  },
+  {
+   "i": 215,
+   "q": 0,
+   "syl": "mai",
+   "t": 69.115,
+   "ipu": 33
+  },
+  {
+   "i": 216,
+   "q": 0,
+   "syl": "đi",
+   "t": 69.45,
+   "ipu": 33
+  },
+  {
+   "i": 217,
+   "q": 0,
+   "syl": "chợ",
+   "t": 69.68,
+   "ipu": 33
+  },
+  {
+   "i": 218,
+   "q": 0,
+   "syl": "khỏi",
+   "t": 69.985,
+   "ipu": 33
+  },
+  {
+   "i": 219,
+   "q": 0,
+   "syl": "bị",
+   "t": 70.195,
+   "ipu": 33
+  },
+  {
+   "i": 220,
+   "q": 0,
+   "syl": "hớ",
+   "t": 70.37,
+   "ipu": 33
+  },
+  {
+   "i": 221,
+   "q": 0,
+   "syl": "mày",
+   "t": 71.16,
+   "ipu": 34
+  },
+  {
+   "i": 222,
+   "q": 0,
+   "syl": "đang",
+   "t": 71.38,
+   "ipu": 34
+  },
+  {
+   "i": 223,
+   "q": 0,
+   "syl": "ăn",
+   "t": 71.52,
+   "ipu": 34
+  },
+  {
+   "i": 224,
+   "q": 0,
+   "syl": "món",
+   "t": 71.725,
+   "ipu": 34
+  },
+  {
+   "i": 225,
+   "q": 0,
+   "syl": "hạng",
+   "t": 71.925,
+   "ipu": 34
+  },
+  {
+   "i": 226,
+   "q": 0,
+   "syl": "mấy",
+   "t": 72.14,
+   "ipu": 34
+  },
+  {
+   "i": 227,
+   "q": 0,
+   "syl": "com",
+   "t": 72.455,
+   "ipu": 34
+  },
+  {
+   "i": 227,
+   "q": 1,
+   "syl": "men",
+   "t": 72.575,
+   "ipu": 34
+  },
+  {
+   "i": 228,
+   "q": 0,
+   "syl": "tao",
+   "t": 72.765,
+   "ipu": 34
+  },
+  {
+   "i": 229,
+   "q": 0,
+   "syl": "xem",
+   "t": 73.0,
+   "ipu": 34
+  }
+ ],
+ "ipus": [
+  [
+   0.25,
+   1.785
+  ],
+  [
+   2.2,
+   3.19
+  ],
+  [
+   3.545,
+   6.91
+  ],
+  [
+   7.335,
+   9.57
+  ],
+  [
+   9.675,
+   10.0
+  ],
+  [
+   10.255,
+   12.265
+  ],
+  [
+   12.395,
+   14.6
+  ],
+  [
+   15.155,
+   16.06
+  ],
+  [
+   16.33,
+   19.135
+  ],
+  [
+   19.53,
+   19.94
+  ],
+  [
+   20.125,
+   21.23
+  ],
+  [
+   21.515,
+   22.725
+  ],
+  [
+   22.86,
+   23.22
+  ],
+  [
+   23.6,
+   23.93
+  ],
+  [
+   24.225,
+   26.37
+  ],
+  [
+   26.475,
+   28.44
+  ],
+  [
+   28.6,
+   28.715
+  ],
+  [
+   28.815,
+   29.115
+  ],
+  [
+   29.33,
+   33.48
+  ],
+  [
+   33.61,
+   36.915
+  ],
+  [
+   37.015,
+   38.635
+  ],
+  [
+   39.22,
+   40.04
+  ],
+  [
+   40.36,
+   42.5
+  ],
+  [
+   42.63,
+   43.29
+  ],
+  [
+   43.66,
+   48.24
+  ],
+  [
+   48.7,
+   49.425
+  ],
+  [
+   49.565,
+   50.445
+  ],
+  [
+   50.665,
+   52.68
+  ],
+  [
+   52.79,
+   53.925
+  ],
+  [
+   54.335,
+   57.25
+  ],
+  [
+   57.43,
+   59.81
+  ],
+  [
+   59.97,
+   65.55
+  ],
+  [
+   65.74,
+   67.785
+  ],
+  [
+   67.98,
+   70.665
+  ],
+  [
+   71.155,
+   73.245
+  ]
+ ],
+ "duration": 73.287
+}
