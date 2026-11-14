@@ -8,6 +8,7 @@ The voice timing is never touched (only level / dynamics), so picture sync stays
 All sound effects are synthesized here with numpy - no third-party samples.
 """
 import json
+import os
 import subprocess
 import sys
 
@@ -239,6 +240,7 @@ def master_voice(path, out_path, target_lufs_mono=-16.5):
 def main():
     voice_path, sfx_path, out_dir = sys.argv[1:4]
     cues = json.load(open(sfx_path))
+    os.makedirs(out_dir, exist_ok=True)
     total = int(round(cues["duration"] * SR))
     voice = master_voice(voice_path, f"{out_dir}/voice_master.wav")
     v = np.zeros((total, 2), np.float32)

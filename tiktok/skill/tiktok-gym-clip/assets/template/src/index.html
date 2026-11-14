@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>TikTok 9:16</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <div class="layer" id="bg-base"></div>
+  <div class="layer" id="bg-glow"></div>
+  <div id="bg-rays"></div>
+  <div class="layer" id="bg-dots"></div>
+  <div class="layer" id="bg-vig"></div>
+  <div class="layer" id="cam">
+    <div class="layer" id="scenes"></div>
+  </div>
+  <div class="layer" id="redflash"></div>
+  <div id="ladder"></div>
+  <div id="progress"><div></div></div>
+  <div id="cap"></div>
+  <div class="layer" id="fx"></div>
+  <div class="layer" id="flash"></div>
+</div>
+<script src="engine.js"></script>
+<script src="art.js"></script>
+<script src="timing.js"></script>
+<script src="main.js"></script>
+<script>
+  window.NEEDS_READY = true;
+  (async function () {
+    // fonts must be loaded before any text is measured
+    await Promise.all(['400 100px "Anton"', '900 100px "Be Vietnam Pro"', '800 100px "Be Vietnam Pro"', '700 100px "Be Vietnam Pro"'].map(f => document.fonts.load(f, 'ĐẬU NÀNH ứ')));
+    await document.fonts.ready;
+    const s = document.createElement('script');
+    s.src = 'scenes.js';
+    s.onload = () => {
+      APP.buildLadder();
+      window.seek = function (t) {
+        APP.renderGlobal(t);
+        for (const o of ENG.ALL) o.render(t);
+      };
+      window.DURATION = window.SCENES_END;
+      window.SFX = APP.sfx;
+      window.CUES = APP.cues;
+      const q = new URLSearchParams(location.search);
+      window.seek(parseFloat(q.get('t') || '0'));
+      window.READY = true;
+    };
+    document.body.appendChild(s);
+  })();
+</script>
+</body>
+</html>
