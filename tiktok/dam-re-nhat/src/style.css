@@ -57,7 +57,7 @@ body { width: 1080px; height: 1920px; overflow: hidden; }
 
 /* ---------- captions */
 #cap { position: absolute; left: 0; right: 0; top: 1236px; height: 240px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-.cl { display: flex; gap: .34em; justify-content: center; align-items: baseline; font-weight: 900; text-transform: uppercase; line-height: 1.17; letter-spacing: -.005em; }
+.cl { display: flex; gap: .37em; justify-content: center; align-items: baseline; font-weight: 900; text-transform: uppercase; line-height: 1.17; letter-spacing: -.005em; }
 .cw { display: inline-block; color: #fff; -webkit-text-stroke: 13px var(--ink); paint-order: stroke fill; text-shadow: 0 7px 0 var(--ink); transform-origin: 50% 85%; }
 .cw.y { color: var(--yellow); } .cw.r { color: #FF5A5A; } .cw.g { color: var(--green); }
 .cw.dim { color: #8A8A99; }
@@ -80,8 +80,8 @@ body { width: 1080px; height: 1920px; overflow: hidden; }
 .tbl { width: 960px; }
 .trow { position: relative; display: flex; align-items: center; height: 148px; margin-bottom: 14px; border-radius: 30px; background: rgba(255,255,255,.07); border: 5px solid rgba(255,255,255,.14); overflow: hidden; }
 .trow .bar { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 26px 26px 0; opacity: .92; }
-.trow .rk { position: relative; width: 132px; text-align: center; font-family: 'Anton'; font-size: 92px; line-height: 1; color: var(--ink); padding-bottom: 6px; }
-.trow .ic { position: relative; width: 150px; display: flex; justify-content: center; align-items: center; }
-.trow .nm { position: relative; font-family: 'Anton'; font-size: 66px; line-height: 1.2; color: #fff; -webkit-text-stroke: 9px var(--ink); paint-order: stroke fill; flex: 1; padding-left: 4px; white-space: nowrap; }
-.trow .pr { position: relative; font-family: 'Anton'; font-size: 84px; line-height: 1.1; color: #fff; -webkit-text-stroke: 9px var(--ink); paint-order: stroke fill; padding-right: 30px; white-space: nowrap; }
+.trow .rk { position: relative; width: 124px; text-align: center; font-family: 'Anton'; font-size: 92px; line-height: 1; color: var(--ink); padding-bottom: 6px; }
+.trow .ic { position: relative; width: 140px; display: flex; justify-content: center; align-items: center; }
+.trow .nm { position: relative; font-family: 'Anton'; font-size: 64px; line-height: 1.2; color: #fff; -webkit-text-stroke: 9px var(--ink); paint-order: stroke fill; flex: 1; padding-left: 4px; white-space: nowrap; }
+.trow .pr { position: relative; font-family: 'Anton'; font-size: 82px; line-height: 1.1; color: #fff; -webkit-text-stroke: 9px var(--ink); paint-order: stroke fill; padding-right: 24px; white-space: nowrap; }
 .trow .pr i { font-style: normal; font-size: .5em; margin-left: .06em; }

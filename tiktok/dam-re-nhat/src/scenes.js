@@ -88,7 +88,7 @@
 
     // price tag: counts up while "một trăm năm mươi" is spoken
     const c0 = ts(2, 7) - 0.1, c1 = ts(2, 8) - 0.12;
-    const tg = tag(sc, { x: 520, y: 1110, val: 150, color: C.yellow, label: 'CHƯA TỚI', fs: 150, rot: 6, c0, c1, prefix: '' });
+    const tg = tag(sc, { x: 486, y: 1110, val: 150, color: C.yellow, label: 'CHƯA TỚI', fs: 150, rot: 6, c0, c1, prefix: '' });
     tg.swing(hit(2, 4)).pulse(c1, 0.12, 0.3).sway(1.4, 2.6);
     S(hit(2, 4), 'swish', 0.8); S(c1, 'ding', 0.8);
 
@@ -186,7 +186,7 @@
     return { sc, rk, nm, hero };
   }
   const priceTag = (sc, rank, val, tSwing, c0, c1, opts = {}) => {
-    const tg = tag(sc, Object.assign({ x: 436, y: 1104, val, color: C[rank], fs: val >= 1000 ? 132 : 150, rot: 5, c0, c1 }, opts));
+    const tg = tag(sc, Object.assign({ x: 404, y: 1104, val, color: C[rank], fs: val >= 1000 ? 132 : 150, rot: 5, c0, c1 }, opts));
     tg.swing(tSwing).pulse(c1, 0.14, 0.32).sway(1.3, 2.6);
     S(tSwing, 'swish', 0.8); S(c1, 'ding', 0.9);
     LAD.on[rank] = c1;
@@ -198,7 +198,7 @@
   // =====================================================================================
   {
     const a = T_R6, b = T_R5;
-    wipe(a, C[6]);
+    wipe(a, C[6], 0.36);
     const R = rankScene({ a, b, rank: 6, name: 'WHEY', artId: 'whey', artW: 392, tHash: hit(6, 0), tNum: hit(6, 1), tName: hit(6, 2), heroY: 880 });
     R.hero.move(hit(7, 8) - 0.1, 0.4, -150, -30);
     chip(R.sc, '<small>1 HŨ ≈</small>2 TRIỆU', 800, 700, '', 6).pop(hit(7, 3)).out(hit(8, 0) - 0.06, 0.12);
@@ -217,7 +217,7 @@
   // =====================================================================================
   {
     const a = T_R5, b = T_R4, tN = hit(9, 7);
-    wipe(a, C[5]);
+    wipe(a, C[5], 0.36);
     const R = rankScene({ a, b, rank: 5, name: 'TRỨNG', artId: 'tray', artW: 520, tHash: hit(9, 0), tNum: hit(9, 1), tName: tN, heroY: 900, silhouette: false });
     // suspense before the name: a big "?" then the "CÚ SỐC" stamp
     qmark(R.sc, 540, 880, 420).pop(hit(9, 0) + 0.04, 0.3).breathe(0.07, 0.5).pulse(hit(9, 2), 0.1, 0.25).out(hit(9, 5) - 0.02, 0.1);
@@ -243,7 +243,7 @@
   // =====================================================================================
   {
     const a = T_R4, m = T_R3, b = T_R2;
-    wipe(a, C[4]);
+    wipe(a, C[4], 0.36);
     const R4 = rankScene({ a, b: m, rank: 4, name: 'ĐẬU PHỤ', artId: 'tofu', artW: 540, tHash: hit(12, 0), tNum: hit(12, 1), tName: hit(12, 2), heroY: 880 });
     R4.hero.move(hit(12, 4) - 0.1, 0.4, -30, -40);
     priceTag(R4.sc, 4, 370, hit(12, 4), ts(12, 5), ts(12, 6) - 0.03);
@@ -272,7 +272,7 @@
   // =====================================================================================
   {
     const a = T_R2, b = T_R1, tW = hit(17, 0), tF = hit(17, 9);
-    wipe(a, C[2]);
+    wipe(a, C[2], 0.36);
     const R = rankScene({ a, b, rank: 2, name: 'LẠC', artId: 'peanut', artW: 540, tHash: hit(15, 0), tNum: hit(15, 1), tName: hit(15, 2), heroY: 880 });
     R.hero.move(hit(16, 1) - 0.1, 0.4, -30, -40).shake(tW, 0.5, 9)
       .add((t, s) => { const p = clamp((t - tF) / 0.3); s.o *= lerp(1, 0.4, p); });
@@ -301,7 +301,7 @@
     beo.slam(hit(17, 12), 0.22, 3).add((t, s) => { const p = E.outBack(clamp((t - (hit(17, 12) + 0.16)) / 0.5), 2.2); s.sx *= lerp(1, 1.3, p); });
     shake(hit(17, 12), 18); S(hit(17, 12), 'thud', 1);
     art(R.sc, 'cross', 104, 608, 1096).rot(8).pop(hit(17, 14), 0.24, 3);
-    const to = group(R.sc, 842, 1090);
+    const to = group(R.sc, 826, 1090);
     to.slam(hit(17, 16), 0.2, 2.6);
     hd(to, 'TO', { x: 0, y: 0, w: 300, max: 220, anchor: 'c' });
     const strike = make(to, { x: 0, y: 6, html: '<div style="width:300px;height:30px;border-radius:15px;background:#FF3B30;border:7px solid #17171C"></div>' });
@@ -329,7 +329,7 @@
     crown0.pop(hit(18, 1) - 0.04).sway(4, 1.3).out(R0 - 0.02, 0.1);
     const h0 = hd(sc, 'TOP 1', { y: 440, w: 520, max: 220, cls: 'y' });
     h0.slam(hit(18, 1)).pulse(hit(18, 2), 0.08, 0.2).out(R0 - 0.02, 0.1);
-    S(hit(18, 1), 'thud', 0.9); S(a + 0.02, 'riser', 1);
+    S(hit(18, 1), 'thud', 0.9); sfx.push({ t: a + 0.02, type: 'riser', gain: 1, dur: R0 - (a + 0.02) - 0.04 });
 
     // everything about the winner lives in one group so it can fold into the comparison panel
     const G = group(sc, 540, 930);
@@ -345,7 +345,7 @@
       .add((t, s) => { if (t >= R0) { const p = (t - R0) / 0.36; s.x += 900 * E.outQuad(clamp(p)); s.y += -1500 * p + 300 * p * p; s.r += 75 * p; if (p >= 1) s.o = 0; } });
     art(cl, 'cloth', 590);
     qmark(cl, 0, 50, 280).breathe(0.08, 0.5);
-    flash(R0, 0.95, 0.38); shake(R0, 30, 0.5); S(R0, 'reveal', 1); S(R0 - 0.02, 'whoosh', 1);
+    flash(R0, 0.95, 0.3); shake(R0, 30, 0.5); S(R0, 'reveal', 1); S(R0 - 0.02, 'whoosh', 1);
 
     // beans burst out
     for (let i = 0; i < 44; i++) {
@@ -388,13 +388,13 @@
       const lb = make(sc, { x: X0 + bw + 20, y: y - 2, anchor: 'cl', html: `<div class="hd thin" style="font-size:64px;-webkit-text-stroke-width:9px;text-shadow:0 5px 0 var(--ink);color:${C[rank]}">${fmt(val)}<span style="font-size:.6em">đ</span></div>` });
       lb.pop(tCmp + 0.5 + i * 0.07, 0.26);
     });
-    const x4 = stamp(sc, '×4', 850, PY, { rot: 8, size: 100, cls: 'g' });
+    const x4 = stamp(sc, '×4', 836, PY, { rot: 8, size: 100, cls: 'g' });
     x4.slam(hit(20, 9), 0.2, 3.2);
     shake(hit(20, 9), 14); S(hit(20, 9), 'stamp', 0.9);
     // "rẻ hơn whey" -> "10 lần"
-    const w1 = stamp(sc, 'RẺ HƠN WHEY', 372, 1142, { rot: -4, size: 98, cls: 'g' });
+    const w1 = stamp(sc, 'RẺ HƠN WHEY', 336, 1142, { rot: -4, size: 92, cls: 'g' });
     w1.slam(hit(20, 11), 0.2, 2.8);
-    const w2 = stamp(sc, '10 LẦN', 836, 1128, { rot: 5, size: 122, cls: 'y' });
+    const w2 = stamp(sc, '10 LẦN', 776, 1130, { rot: 5, size: 112, cls: 'y' });
     w2.slam(hit(20, 14), 0.2, 3.4);
     S(hit(20, 11), 'thud', 0.8); shake(hit(20, 14), 22); S(hit(20, 14), 'stamp', 1); flash(hit(20, 14), 0.3, 0.25);
   }
@@ -436,7 +436,13 @@
       const sc = scene(m, b);
       accents.push([m, C[1]]);
       flash(m, 0.4, 0.2); S(m - 0.06, 'whoosh', 0.7);
-      const RY = 596;
+      const RY = 640;
+      // headline follows the voice: "đừng bỏ ..." -> "... trộn thêm đậu nành"
+      const hK = hd(sc, 'ĐỪNG BỎ', { y: 322, w: 520, max: 150 });
+      hK.slam(hit(22, 1), 0.22, 2.4).out(hit(22, 8) - 0.06, 0.1);
+      const hM = hd(sc, 'TRỘN THÊM <span style="color:var(--green)">ĐẬU NÀNH</span>', { y: 322, w: 940, max: 150 });
+      hM.slam(hit(22, 8), 0.22, 2.4);
+      S(hit(22, 1), 'thud', 0.8); S(hit(22, 8), 'thud', 0.8);
       const keep = `GIỮ ${ART.svg('check', 44, { plain: true })}`;
       const eg = group(sc, 205, RY); eg.pop(hit(22, 3), 0.3, 2.6).float(6, 2.3); art(eg, 'tray', 292);
       chip(sc, keep, 205, RY + 192, '', -3).scale(0.9).pop(hit(22, 3) + 0.1, 0.26);
@@ -448,11 +454,11 @@
       art(sc, 'plus', 80, 708, RY).pop(hit(22, 8), 0.26, 3).pulse(hit(22, 9), 0.3, 0.3);
       S(hit(22, 3), 'pop', 0.9); S(hit(22, 5), 'pop', 0.9); S(hit(22, 8), 'pop', 0.7); S(hit(22, 10), 'ding', 0.9);
       // result
-      const lab = hd(sc, 'TIỀN ĐẠM', { x: 296, y: 1000, w: 430, max: 170, anchor: 'c' });
+      const lab = hd(sc, 'TIỀN ĐẠM', { x: 268, y: 1020, w: 400, max: 170, anchor: 'c' });
       lab.slam(hit(22, 14), 0.22, 2.4);
       S(hit(22, 14), 'thud', 0.8);
       const t50 = hit(22, 18), tEnd = ts(22, 20) + 0.08;
-      const pc = hd(sc, '−50%', { x: 772, y: 1050, w: 480, max: 300, anchor: 'c', cls: 'g' });
+      const pc = hd(sc, '−50%', { x: 716, y: 1066, w: 430, max: 290, anchor: 'c', cls: 'g' });
       const pn = pc.el.firstChild;
       pc.slam(t50, 0.22, 3).pulse(tEnd, 0.14, 0.34);
       pc.onRender = t => { const v = t >= tEnd ? 50 : Math.round(lerp(0, 50, E.outCubic(clamp((t - t50) / (tEnd - t50))))); pn.textContent = '−' + v + '%'; };
@@ -460,7 +466,7 @@
       for (let i = 0; i < 5; i++) S(t50 + (tEnd - t50) * i / 5, 'tick', 0.5);
       // coins: half of them fly away
       for (let i = 0; i < 6; i++) {
-        const cn = art(sc, 'coin', 78, 128 + i * 68, 1160, { plain: true });
+        const cn = art(sc, 'coin', 74, 104 + i * 64, 1172, { plain: true });
         cn.pop(hit(22, 14) + 0.04 * i, 0.24);
         if (i >= 3) cn.add((t, s) => { const u = t - (t50 + 0.07 * (i - 3)); if (u > 0) { const p = clamp(u / 0.5); s.y += -260 * p + 700 * p * p; s.x += 160 * p; s.r += 300 * p; s.o *= 1 - E.inCubic(p); } });
       }
@@ -478,15 +484,15 @@
     accents.push([a, C.yellow]);
     LAD.hide = a;
     CAP.top.push([a, 1262]);
-    const h = hd(sc, '<span style="color:var(--yellow)">GIÁ</span> 1 GRAM ĐẠM', { y: 196, w: 960, max: 230 });
+    const h = hd(sc, '<span style="color:var(--yellow)">GIÁ</span> 1 GRAM ĐẠM', { x: 496, y: 196, w: 896, max: 230 });
     h.slam(a + 0.05, 0.22, 2);
     const data = [[1, 'ĐẬU NÀNH', 100, 'soy', 96], [2, 'LẠC', 240, 'peanut', 124], [3, 'ỨC GÀ', 330, 'chicken', 124], [4, 'ĐẬU PHỤ', 370, 'tofu', 124], [5, 'TRỨNG', 460, 'tray', 126], [6, 'WHEY', 1100, 'whey', 74]];
     const y0 = 196 + h.h + 14, RH = 126, GAP = 12;
     data.forEach(([rank, name, val, id, w], i) => {
-      const bw = Math.round(18 + (960 - 132 - 18) * val / 1100);
-      const row = make(sc, { x: 60, y: y0 + i * (RH + GAP), anchor: 'tl', html: `<div class="trow" style="width:960px;height:${RH}px;margin:0">
+      const TW = 896, bw = Math.round(18 + (TW - 124 - 18) * val / 1100);
+      const row = make(sc, { x: 48, y: y0 + i * (RH + GAP), anchor: 'tl', html: `<div class="trow" style="width:${TW}px;height:${RH}px;margin:0">
           <div class="rk" style="background:${C[rank]};align-self:stretch;display:flex;align-items:center;justify-content:center;border-right:5px solid #17171C">${rank}</div>
-          <div style="position:absolute;left:132px;bottom:0;height:14px;width:${bw}px;background:${C[rank]};border-radius:0 8px 0 0"></div>
+          <div style="position:absolute;left:124px;bottom:0;height:14px;width:${bw}px;background:${C[rank]};border-radius:0 8px 0 0"></div>
           <div class="ic">${ART.svg(id, w, { plain: true })}</div>
           <div class="nm">${name}</div>
           <div class="pr" style="color:${C[rank]}">~${fmt(val)}<i>đ/g</i></div></div>` });
@@ -494,7 +500,7 @@
       S(a + 0.08 + i * 0.06, 'tick', 0.9);
     });
     const yEnd = y0 + 6 * (RH + GAP);
-    const note = make(sc, { x: 1016, y: yEnd - 4, anchor: 'tr', html: '<div style="font-weight:700;font-size:27px;color:rgba(255,255,255,.62);letter-spacing:.02em">* Giá ước tính · tiền mua ÷ số gram đạm</div>' });
+    const note = make(sc, { x: 940, y: yEnd - 4, anchor: 'tr', html: '<div style="font-weight:700;font-size:27px;color:rgba(255,255,255,.62);letter-spacing:.02em">* Giá ước tính · tiền mua ÷ số gram đạm</div>' });
     note.fade(a + 0.5, 0.3);
     // save + comment cues (outside the table, so the table itself stays still)
     const bm = art(sc, 'bookmark', 84, 172, 1380);

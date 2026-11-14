@@ -157,7 +157,7 @@
     const cards = TIMING.cards;
     for (let i = 0; i < cards.length; i++) {
       // a card never survives a scene cut
-      let hide = cards[i].hide;
+      let hide = i === cards.length - 1 ? 1e9 : cards[i].hide;   // the last line stays until the end
       for (const c of CAP.cuts) if (c > cards[i].a + 0.2 && c < hide) hide = c;
       if (t >= cards[i].a - 0.07 && t < hide) ci = i;
     }
@@ -170,7 +170,7 @@
       let size = 88;
       for (const ln of c.lines) {
         const txt = ln.map(i => W[i].w).join(' ');
-        size = Math.min(size, fitSize(txt, 'Be Vietnam Pro', 900, 860, 88));
+        size = Math.min(size, fitSize(txt, 'Be Vietnam Pro', 900, 800, 88));
       }
       cap.innerHTML = c.lines.map(ln => `<div class="cl" style="font-size:${size}px">${ln.map(i => `<span class="cw ${W[i].tone}" data-i="${i}" style="-webkit-text-stroke-width:${Math.round(size * 0.15)}px">${W[i].w}</span>`).join('')}</div>`).join('');
       CAP.spans = [...cap.querySelectorAll('.cw')];
@@ -189,9 +189,9 @@
       if (u < 0) { sp.className = 'cw dim'; sp.style.transform = ''; continue; }
       const active = t < w.b - 0.02;
       sp.className = 'cw ' + w.tone + (active ? ' act' : '');
-      const bump = u < 0.18 ? 0.13 * Math.sin(Math.PI * clamp(u / 0.18)) : 0;
-      const k = 1 + bump + (active ? 0.04 : 0);
-      sp.style.transform = `translateY(${((active ? -5 : 0) - bump * 26).toFixed(1)}px) scale(${k.toFixed(3)})`;
+      const bump = u < 0.2 ? Math.sin(Math.PI * clamp(u / 0.2)) : 0;
+      const k = 1 + 0.06 * bump + (active ? 0.025 : 0);
+      sp.style.transform = `translateY(${((active ? -4 : 0) - bump * 14).toFixed(1)}px) scale(${k.toFixed(3)})`;
     }
   }
 

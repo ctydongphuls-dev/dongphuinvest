@@ -209,9 +209,10 @@
   };
 
   // ---- UI icons
+  const PLUS_D = 'M78 8H122V78H192V122H122V192H78V122H8V78H78Z';
   symbols.cross = {
     vb: '0 0 200 200',
-    body: `<g transform="rotate(45 100 100)"><rect x="76" y="6" width="48" height="188" rx="14" fill="#FF3B30" ${O}/><rect x="6" y="76" width="188" height="48" rx="14" fill="#FF3B30" ${O}/><rect x="81" y="76" width="38" height="48" fill="#FF3B30"/></g>`,
+    body: `<g transform="rotate(45 100 100)"><path d="${PLUS_D}" fill="#FF3B30" stroke="${INK}" stroke-width="11" stroke-linejoin="round"/><path d="M90 22V70M30 90H70" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".45"/></g>`,
   };
   symbols.check = {
     vb: '-14 2 232 208',
@@ -247,7 +248,7 @@
   };
   symbols.plus = {
     vb: '0 0 200 200',
-    body: `<rect x="76" y="10" width="48" height="180" rx="14" fill="#fff" ${O}/><rect x="10" y="76" width="180" height="48" rx="14" fill="#fff" ${O}/><rect x="81" y="76" width="38" height="48" fill="#fff"/>`,
+    body: `<path d="${PLUS_D}" fill="#fff" stroke="${INK}" stroke-width="11" stroke-linejoin="round"/>`,
   };
   symbols.arrow = {
     vb: '0 0 200 220',
